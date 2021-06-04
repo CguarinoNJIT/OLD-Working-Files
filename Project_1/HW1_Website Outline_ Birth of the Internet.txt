@@ -1,0 +1,341 @@
+﻿Website Outline: Birth of the Internet
+
+
+Homepage: 
+
+
+* Welcome to the Birth of the Internet. A one stop shop for all that is relevant to the creation of the internet as we know of it today. Enjoy 
+* I imagine I will have links to different subjects/time periods and explain the details. 
+
+
+Beginnings : 
+
+
+* The initial need for an  ‘internet’ was for an indestructible medium of communication during war. 
+   * The fear was during the Cold War if telephone communications were taken out America would not have a means of coordinating retaliatory or defensive measures. 
+   * Circuit switching - telephones - require direct contention path or circuit.  
+      * If the phone circuit is broken, it’s useless. 
+* At MIT during the 1950s American Psychologist and Computer Scientist J.C.R Licklider proposed the seminal idea of networked devices. 
+* At this time computers were vilified by the entertainment industry as alien technology in the pursuit of human obliteration. 
+
+
+Space Race: 
+
+
+* In 1957 the Soviet Union put the first satellite into orbit - Sputnik. 
+* In reaction to the Soviet Union’s space program’s success Eisenhower established a new agency in the Bureau of Defense called the Advanced Research Project Agency or ARPA for short. 
+   * ARPA was in charge of the USA space program prior to NASA. 
+      * Naturally emerging computer science would fall under ARPA’s research efforts especially in relation to the space program. 
+   * In July 1958 the space program got a dedicated agency, NASA, and 
+Computer Science research fell into obscurity in the public’s eye. 
+
+
+Networking: 
+
+
+* MIT’s Leonard Klienrock applied queuing theory to data transmission between nodes of a network. 
+   * Queuing Theory - mathematical study of waiting lines, or queues. A queueing model is constructed so that queue lengths and waiting time can be predicted. 
+   * A queuing model can help to determine the theoretical speed of a network. 
+   * Two Principles discovered by Kleinrock. 
+   * 1) Demand Access - Dont get it until you need it. For effective resource sharing within data-networks. 
+   * 2) Distributed Control - No one switch, device, or authority can control the entire network. All networked devices share in that control. Decentralized control. 
+* Klienrock’s discoveries brought new light to the proposition of a network of devices. 
+* In the early 1960s Paul Baran surmised a ‘Fish-Net Network’ or Hot Potato Routing where the intersections of the net would be the nodes and the runs of the net would be the paths of communication for the network. 
+   * The motivation for this design would be that it creates a nearly indestructible network. 
+   * If a node or path in this Fish-Net Network were to be decommissioned, theoretically communications could travel through another path to it’s destination.  
+   * This was inspired by Claude Shannon’s 1952 theory that data could travel through a network the same way mice navigate a maze.   
+   * Borrowing an idea from telegraph, Baran decided to have each package of information split up into equal size packets,each with an address designation. 
+   * These would travel from the sender to the receiver along this network in whichever path was most efficient for the nodes of the network.   
+   * A node would keep a copy of the packet and continue to send them out until the packet arrives at the next node. 
+Packet Switch Network - A file to be sent is chopped up into packets - Launched into the network - Each packet operating independently from the others find their way through the network to the destination node where the packets are reassembled into the original file. 
+
+
+* EX: 
+
+
+                                ### GIF Removed ###
+
+
+
+
+Arpanet: 
+
+
+* Bob Taylor, an ARPA engineer, was frustrated that he needed to use a separate terminal for each computer he wanted to query at research sites across the country in a time sharing system. 
+   * Time-Sharing is the sharing of a computing resource among many users at the same time by means of multiprogramming and multitasking.
+* No two computers could talk to each other. Taylor had to move terminal to terminal -  if all the computers were in a common network he would just need one terminal. Link heterogeneous computers together in a network so that they can access each computer from a single terminal. 
+* In 1966 ARPA invested 1 million dollars to research this idea - transferring files  between computers.  
+* Larry Roberts - first experimental connection between two computers at MIT Lincoln Lab - hired by Taylor to work on this Apra project.  
+* How to connect the computers?
+   * Ultimately they gave each ‘Mainframe’ a mini-computer companion that would be directly linked to the mainframe. Then all of the mini-computers would be networked together. Think of it almost like translators for the mainframes.  Actually named interface message processors (IMPs).
+* Larry Roberts put together a team to accomplish this network in 1968.  
+* Bolt, Beranek, Newman (BBN) - Frank Heart - company that agreed to build the IMPs for Arpanet, others refused. Started on - 01/01/1969, due at UCLA 9 months later. 
+* At UCLA graduate students were left to write the programs to get their mainframe to communicate with the IMP network companion.  Needed to define a common language.   
+* BBN struggled with the timeline and a lot of other technical issues. How to solve issues like, data overflow with very large file transfers, or how do you keep the packets from circulating after they have arrived at their destination, Error reporting etc… 
+* By the end of 1969 all 4 node sites were networked with IMPs. 
+* By April 1971 18 mainframes were networked with IMPs. 
+* Raymond Tomlinson is credited with using this ‘Arpanet’ to send the first email. 
+   * This showed one for the first glimpses of a real everyday utility that networked computers could serve. 
+* The initial concept of the of Arpanet would be that it was built with an open architecture. 
+   * Meaning that it’s design was so loose and unrestrictive that it could serve as a platform for other developers to build technologies on. 
+* By 1972 Arpanet at fewer than 25 sites on it. 
+   * That year ARPA hosted an international conference on computers and communications 
+   * Bob Metcafle was given the task of putting together a demo of what the Arpanet could do. 
+   * This sparked massive amounts of interest and network growth around the world. 
+* LANS(Local Area Network)  - building network or WANS(Wide Area Networks) - site ro campus network, became common.  
+* TCP IP Protocol - 1973 Vint Cerf and Bob Kahn
+   * if followed by different computer networks it would allow them to pass information back and forth.  
+   * Gateway - the element of a network that knows how to talk to the networks and encapsulate packets. 
+* Arpanet was not mainstream. It has applications in defence and business but the general consumer did not have access or interest until the advent of technologies like the semiconductor, the mouse, high speed modem.  
+* In 1983 Paul Mockapetris created the Domain Name System or DNS 
+   * Mockapetris recognized that the early internet had an issue with how it handled address identifiers. 
+   * This is a decentralized naming system for computers and resources connected to the internet. 
+   * This system is important because it allows users to just have to remember a domain name.. Not an insane  numerical IP address.  
+   * This was made a standard for the internet/Arpanet in 1986 by the Internet Engineering Task Force (IETF). 
+
+
+The World Wide Web: 
+
+
+* On June 9th 1992 the internet was removed from the exclusive hands of the government and the general public was given access to this network - George Bush Sr. 
+   * The National Science Foundation got the idea that the internet should be used for commercial use. 
+   * Free enterprise with individuals  accessing the internet. 
+* In 1989 Tim Berners-Lee developed the software to help common users to access the information on the internet easily.  - World Wide Web - links and all connected.  
+* 1993 - Marc Andreessen - Mosaic Online - user friendly browser to navigate the web. Internet grew by 341,000%  - This defined the use of the PC - going online  
+
+
+Browser Wars: 
+ 
+* 1993 - Marc Andreessen - Mosaic Online - Andreessen and his team worked on making the first user-friendly WWW browser for the everyday user. The world’s first graphical web browser.  
+   * This is where the internet as we think of it exploded. 
+* Jim Clark - Silicon Graphics - reached out to Marc Andreessen requesting a meeting. 
+   * Clark met with Andreessen and decided they needed a team to grow Mosaic into a business venture and met Andreessen’s team. 
+   * Clark made them and offer to get them on board. 
+      * Rob McCool, Aleks Totic, Lou Montulli Etc…
+   * Company would eventually become Netscape.
+* Bill Gates - Microsoft - Microsoft wanted to adopt a pay per ride model to accessing the internet. 
+   * MSN - Microsoft Network 
+   * 1975 - Gates dropped out of Harvard at age 19 to form Microsoft with his college friend Paul Allen. 
+   * By 1993 about 90% of the world’s PCs were running Microsoft. 
+   * Microsoft culture was scrappy, in constant awareness that they would be dethroned any moment by some small start up.  
+   * Gates at this point seemed to be driven by fear and this showed in how dealt with his subordinates and people in general.  
+* Summer 1994 - Jim Clark and his team launched Netscape Communications.
+   * Build a new browser based on Mosaic. 
+   * Extreme urgency because they knew that someone else could beat them to the market. 
+   * 10/13/1994 - Netscape - Released Navigator - Netscape’s new web browser. 
+* Microsoft had concerns that the internet browser could turn into the PCs primary software platform. Applications all online. Think Google Ecosystem.  
+* Gates - ‘The Internet Tidalwave’ - memo to company 
+   * Outlined that the internet was the single most important advancement in the PC world and that Microsoft needed to match and beat all competitors. Including Netscape. 
+   * Huge pivot for Microsoft immediately. 
+   * This marked an official beginning to the browser wars. 
+* Gary Reback - Antitrust lawyer hired by Netscape to protect them from Microsoft. 
+   * Microsoft and Netscape have a meeting about what it would be like to work together symbiotically.  
+   * Basically it sounds like Microsoft did offer Netscape 1 million for unlimited access to all of Netscape’s tech. 
+   * Reback was instructed to file a law-suit against Microsoft. 
+* Netscape created an IPO and their stock went through the roof on the day of it’s launch. 
+* Netscape was very arrogant and Andreessen regularly talked shit about Microsoft in the press.  - ‘Poorly debugged device drivers’ 
+* Microsoft launched Internet Explorer 
+   * All of Microsoft’s products and applications at the time were retooled to destroy Netscape and all over competition.  
+   * Microsoft had some huge advantages over Netscape. 
+      * Large well of talent 
+      * Devastating sales force. 
+   * Basically the sales force was there to ensure that Microsoft products were installed on PCs prior to sale to the consumer. Sometimes even saying don’t install Netscape or we will pull our Windows licence from your company. 
+   * Microsoft also was able to do something Netscape was not. Give Internet Explorer away for free with Windows. Netscape had to charge per download. 
+* September 1997 - The browser wars were over for the most part and Microsoft had won. 
+* Netscape was absorbed by AOL in the end. 
+* Microsoft’s war was still ongoing. 
+   * US Department of Justice - Antitrust Lawsuit  - Microsoft accused of running a monopoly and forcing competitors out of the market through exclusivity agreements and some other shady maneuvers. 
+   * Final verdict from the court was guilty so Microsoft was forced to break up their monopoly. 
+   * In appeals court the verdict was decided to be too harsh and the company was allowed to remain whole. 
+   * Gates handed over his position of CEO to Steve Balmer. He decided to focus more on philanthropic endeavors. Gates Foundation.  
+Search Wars: 
+
+
+* Jerry Yang and David Filo - created Yahoo - Stanford students
+   * Trying to find a way to win a sneaky way to win a Stanford fantasy basketball league. 
+      * Whether they realized it or not they were taking the first steps on the way to the search engine. 
+      * Millions of users from around the world started to use their site. 
+* VCs play a key role here. 
+   * These can make or break a young start-up. 
+   * Most start-ups need a large infusion of investment to scale. This is where VCs come in. 
+* Sequoia Capital - Michael Moritz - pays Yang and Filo a visit at Stanford. 
+* At the beginning of the web people did not know how to make money on the internet. 
+   * It was considered taboo, Like taking advantage of something sacred. 
+   * There were almost two sides… 
+   * 1. People that saw the web as a place of free unencumbered expression and sharing
+   * 2. People that saw a large gathering of people and thought we can monetize this. 
+* Making money on the web started with advertising.  
+* Yahoo in the early days was worried that advertising would alienate their users.  
+   * Will this tarnish the information utopia that they were trying to cultivate?
+* Advertising ended up working out for both groups. 
+   * Users continued to multiply on Yahoo (did not deter users) and the money folks could have their money. 
+   * Advertising just continued to grow! 
+* This was a big deal - Yahoo showed that it was possible to make money on the web.  
+* Yahoo had some rivals in the early days but it’s largest competitor was a searching site called Excite
+* Excite - Joe Kraus, Graham Spencer - Was a unique search for the time. Yahoo relied on humans to manually enter new sites into it’s master directory whereas Excite was all software. Once a user queried the site it would comb through the web autonomously. 
+* These sites all seemed to turn themselves into ‘Portals’ or one stop shops. A site where you can get news, search, all in one spot. 
+   * The goal...to keep the user on the page as long as possible to expose them to as many ads as possible … ads == money
+* Search on these sites ended up being lacking. 
+   * Seemed like searching became secondary to ads.
+   * The search engines were not being upgraded and many times users would have a very hard time finding what they were looking for. 
+* Google is born - Larry Page and Sergey Brin - Stanford 
+   * They built Google's search engine around the idea that when one site links to another site you can assume that the linked site is useful.  
+   * ‘Google interprets a link from page A to page B as a vote for page B by page A. Google assesses a page's importance by the pages that it receives.’ 
+   * Link counting essentially. High link count assumed high relevance.  
+   * Search engine that cared about search at its core. 
+   * Google was so successful in its early days that Stanford pushed Google off of their network because of the high volume of traffic. 
+* Khosla Ventures - Vinod Kholsa VC - Met with Google and tried to get them to team up with Excite to help take down Yahoo. 
+   * Google met with Excite - end result Excite could have bought Google for 1 million. 
+   * People didn’t think you could make real money from Search. 
+   * All VCs in Silicon Valley ended up turning down Google. 
+* Larry and Sergey ended up reaching out to David Cheriton (prof at Stanford) who they knew made investments. 
+   * Cheriton reached out to a partner Andy Bechtolsheim, a Silicon Valley investor. 
+   * Bechtolsheim met with Google at Cheriton’s home for a meeting. 
+   * Bechtolsheim was immediately sold on their link counting search algo and immediately wrote them a check for 100K. 
+   * They continued to raise about 1 million dollars to get started from Angel Investor
+* Kleiner,Perkins,Caulfield & Byers , John Doerr VC 
+   * Perhaps one of the most successful VCs in the valley. Very high profile. 
+   * Google met with Doerr and claimed that they could get to 10 billion in revenue. 
+   * Doerr worte Google a check for over 12 million and then Moritz from Sequoia matched it. 
+* ½ million were being used about each month. Server costs, salaries, etc…
+   * They had a cash flow issue. Could be rectified by advertising
+   * Larry and Sergey were very opposed to flashy advertising on their site. 
+   * Google takes the idea from Bill Gross from Idealab to use the search engine as a market research tool. 
+      * The words that are typed into a search bar are called  ‘Keywords’ 
+      * Gross had the idea that you could sell these keyboards to advertisers. 
+         * Beginning of SEO (Search Engine Optimization) 
+      * Gross launched a site called Overture. 
+         * Pay-per-click advertising and used a system where keywords were auctioned off. 
+         * This was the idea that Google needed to use to monetize. 
+      * Google takes a meeting with Overture and no deal is made. When they release their own pay-per-click service called ‘Adwords’
+      * Gross ended up suing Google to appropriate their tech but then Google and Gross settled out of court and gave Gross a bunch of Google stock. 
+      * The way this works is that when you would search the engine for something you would get the regular algo driven links but on the right hand side of the site you would also get Sponsored Links that would be paid for. 
+   * August 19th 2004 Google goes public -  3 billion in Revenue
+      * Google Inc. IPO was a success from the start. 
+      * When the market opened a share was worth ~100 dollars, 50 dollars more than expected. 
+* Google has put in a real effort to be viewed as a Benevolent Giant.  
+
+
+Dot Com Bubble:
+
+
+* Amazon - Jeff Bezos - 
+   * Started with books
+* Ebay - Pierre Omidyar - 
+   * Believed that the internet gave way to the opportunity for an online marketplace where individuals could compete with large corporations. 
+   * Mocked it up during a Labor day weekend.  
+   * Online auctioning 
+* Both companies exploded rather quickly
+* Due to two main Laws Moore’s Law and Metcalfe’s Law
+
+
+   * Governed  by Moore's Law - The speed and power of integrated circuits doubles every 18 months. Exponential growth. 
+   * Silicon Chip has transistors (switch) etched into its surface. 
+      * Engineers continued to make them smaller and smaller. 
+      * With smaller more pattern dense chips you can use them to make even smaller chips and so on. This process is autocatalytic - self accelerating. 
+   * Metcalfe's Law - every new node added to a network increases the networks connections not by one but by a much more - states that the value or utility of a network is proportional to the number of user's of the network.  
+* Generally a breakthrough innovation will bring along with it an increase in unsuccessful startups and excited investors. This can create a financial bubble.  
+* Amazon launched it’s IPO in 1997 
+   * ‘Get Big Fast’ - idea that you would lower prices as you can to gain more popularity in the market. Essentially trading profit for growth. 
+   * Amazon felt that their model only worked well for customers at scale.
+* One hurdle to over come was consumers trusting an online marketplace with their money (CC/Banking info) 
+   * Encryption is the solution. 
+   * Public Key Cryptography - idea that the recipient of encrypted data is the only one that can access the data after the sender has input it. Only the recipient knows how to decrypt.  
+      * This is the key to secure ecommerce. 
+* Ebay - Meg Whitman established as CEO
+* Ebay IPO opened in 1998 and was an instant success
+   * Stock soar first day and Ebay was evaluated at 2 billion dollars by the end of the day. Share was worth 50 dollars. 
+* Amazon and Ebay were being over evaluated by Wall Street and this was the beginning of the Dot Com bubble. 
+   * Madness had begun. People started buying any stock with a  ‘.com’ attached to it. 
+   * People flocked to Silicon Valley to be part of the gold rush. 
+* Rise of day traders. Making the stock market more volatile than before. 
+* Lots and lots of money being thrown around. Frantic investing
+* Tons and tons of copy-cat companies were formed to try and replicate the get big fast model. However it seems like most of them were not well fleshed out and had low viability. 
+   * VCs would invest in a lot of these, banking on one that would pay off big.
+      * Total number of internet IPOs in 1999 was 250
+*  In order to keep up with increased speeds and traffic the telecommunications industry was scrambling to set up the infrastructure for fiber optic cables. 
+   * Fiber optics uses pulses of light to represent machine code (data). 10 billion pulses can be sent in a second...maybe more now. 
+* The Chairman of the Federal Reserve Alan Greenspan saw that this bubble was out of control and finally decided to do something about it. 
+   * In February of 2000 and then again in March the fed raised interest rates to their highest level since 1995.
+      * Signalled that the buddle was coming to an end.  
+* Wall Street started to doubt the faith they were putting in the get big fast model. 
+   * This of course would have a direct relationship to the speculative value of each IPO. 
+* April 12th 2000 internet economy market crashed 355 points.  
+   * The NASDAQ was worth ⅓ it was prior  
+   * Basically all internet IPOs were dead or seriously hurting. 
+   * 3.5 trillion dollars of wealth disappeared in the space of 1 year. 
+* The companies that survived the Dot Com Bubble survived and were strengthened. 
+   * Companies like Amazon and Ebay understood that you are not just providing a service they are giving their users more power and control. Empowerment 
+* One positive outcome to the Dot Com craze was that it injected massive amounts of capitol into the internet ecosystem sooner rather than later. 
+   * Built out the infrastructure for the internet quickly  
+
+
+Power to the People: 
+
+
+* The real product and utility of the internet is communication.
+* Internet 2.0 - Web enabled people  - The age of social media. 
+   * Alternatives to traditional media 
+      * Digg - ‘What the internet is talking about now!’ 
+         * Crowd sourced news 
+      * YouTube - putting the power of self-broadcast in the hands of people. 
+         * Television finds platforms like YouTube concerning.
+      * Facebook - crowdsourcing content. 
+         * Facebook is about connection and social networking
+      * Many music sharing websites cropped up. 
+         * MP3 - compressed audio data , became much more available 
+         * Winamp , Audion* - store and play music software 
+         * David Weekly - MP3 Pioneer - Created a site for MP3 sharing online
+            * Hosted from his computer on Stanford’s network was using up to 85% of server traffic 
+         * Record labels were very concerned. Free music == less money for them 
+            * IBM and some record labels ran an experiment where they put CD burners in people’s homes to see if they would download and burn their own CDs. 
+            * The conclusion was that no mainstream consumer would ever want to do this. 
+            * Bullshit 
+         * Napster - Shawn Fanning  - came up with a peer to peer audio file sharing site. People could upload and download eachothers music. 
+            * Napster lets it’s users computer talk (peer to peer) meaning that if you wanted a song you can search Napster for it and if another Napster user had the mp3 you were looking for you could download it directly from their harddrive. 
+         * June 1999 Fanning finished Napster - note it was his first program. 
+            * Fanning sent it around to some friends and within a week around 10K people had downloaded it.  
+         * Less than 4 months after Fanning released Napster the site hit it’s 1 billion download mark.
+         * Napster marked the beginning of something interesting in the internet. 
+            * Users provide their own content. Napster was just the virtual townsquare for them to meet. 
+         * Silicon Valley picked up Fanning and VCs turned his hobby into a business. 
+         * Napster was under fire for operating or at least harboring and abetting illegal copyright infringement.  
+        - they were asked to remove all copyrighted songs from their site. 
+
+
+   * King and Paterno - Entertainment Lawyers - realized early on that sites like Napster could mean the end of the music business but in general file sharing sites could mark the end of most traditional entertainment businesses. 
+   * These guys essentially sat down with some of their musician clients and showed them how easy it was to steal their music on Napster
+   * Napster pissed off a lot of musicians. Metallica for example 
+   *  May 3, 2000 Lars Ulrich (Metallica Drummer) along with King and Paterno had a meeting with Napster 
+   * Basically they wanted Napster to ban all of Metallica content seeders on the site.  
+   * The whole thing was heavily dramatized. 
+   * This had the unintended outcome of boosting Napster’s traffic. 
+   * All press is good press… 
+   * Hillary Rosen at the RIAA (Recording Industry Association of America) 
+   * Filed a copyright lawsuit against Napster. 
+   * July 2001 - Napster had to be shut down immediately  
+   * This opened the door for Steve Jobs to launch a pay per song service iTunes 
+   * YouTube - video sharing 
+   * Viacom launched a 1 billion dollar lawsuit against YouTube in their early days.  - Disregard for IP Law because of the copyrighted material on their site - posted by users. 
+   * Google bought YouTube at the end of 2006 - so they have the resources to handle some legal battles.  
+   * Web 2.0 was centered around user generated content.  
+   * Sites like MySpace grew
+   * MySpace 
+   * Summer of 2005 MySpace was born and spread through many demos. 
+   * Rupert Murdoch (News Corp) buys MySpace in July 2005 for 580 million dollars. 
+   * By June 2006 it was the most visited site in the US. 
+   * Facebook 
+   * Started as a networking site at Harvard in 2004 
+   * Grew to more than 800 colleges and recorded $9 million in revenue in 2005. 
+   * User base doubles every 6 months - initial growth probably different now.  
+   * Zuckerburg wanted to create a global networking engine.  
+   * Social Graph - we are all bound together by a network of relationships 
+   * Everyone is connected to everyone.  
+   * Craigslist
+   * Online marketplace
+   * Classifieds online basically  
+   * Free to use non profit? 
+   * Wikipedia
+   * Not profit driven
+   * Centers around the idea that an unsupervised community can produce high quality work. 
+   * The web belongs to the people.
