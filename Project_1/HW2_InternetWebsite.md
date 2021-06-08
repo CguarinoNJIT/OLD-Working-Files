@@ -34,5 +34,5 @@
 * At this time however packet swithcing within a distributed network was riddled with dozens of exicution delimeas. One of the major road-blocks being that a newtork for this to operate within did not exist and would not for another 22 years. 
 ## 1966 - ARPA
 
-
+  
 <span style="color:red">some *red* text</span>.
