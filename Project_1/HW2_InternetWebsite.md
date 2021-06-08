@@ -1,3 +1,22 @@
+### Timeline with interactable links.  
+#### Basic Goals: 
+* Click on the node and it will open a new page with more details.
+#### Stretch Goals: 
+* When you hover over a node it will open up a short description window. 
+  * Animate timline intro and hover over.
+--- 
+## 1947 (Not sure)
+* The Cold War begins. Tensions between the USA and the Soviet Union reach a new high. The threat of Nuclear 
+## 1962 - J.C.R. Licklider: An Intergalactic Vision
+* J.C.R. Licklider theorized in his seminal paper about the symbiotic relation that would grow between humans and computers. Licklider outlined the need for a seamless interaction between humans and computers. Licklider is considered a pioneer of articial intelligence. 
+* Licklider went on to contribute to early research efforts into the world of networking. In fact he is credited with formulating the earliest ideas of a global computer network at Bolt,Beranek and Newman Inc.(BBN,Tech R&D). Discussed in numerous memos at BBN Licklider proposed the concept of an Intergalactic Computer Network that outlines essentially what our Internet has become today. 
+* His work and funding served as the inspiration and foothold for many other Netowrking pioneers. 
+## 1968 - The Computer as a Commuinication Device 
+* "Creative, interactive communication requires a plastic or moldable medium that can be modeled, a dynamic medium in which premises will flow into consequences, and above all a common medium that can be contributed to and experimented with by all."
+* This futurist paper written by J.C.R. Licklider and Robert W. Taylor illustrates how the leap from commonplace telecommunications to a more sophisticated network of multiaccess computers would dramatically improve creative comminication and problem solving. 
+  * Proposing the idea that a network of computers would mean amplified human intelligence. An extension and supplimentation of the mind. 
+  * This paper theorizes about the types of communities that can grow out of a networked system of general purpose computers. Introductions, discusions, and parting all happening on-line. 
+    * "First, life will be happier for the on-line individual because the people with whom one interacts most strongly will be selected more by commonality of interests and goals than by accidents of proximity. Second, communication will be more effective and productive, and therefore more enjoyable. Third, much communication and interaction will be with programs and programmed models, which will be (a) highly responsive, (b) supplementary to one’s own capabilities, rather than competitive, and (c) capable of representing progressively more complex ideas without necessarily displaying all the levels of their structure at the same time-and which will therefore be both challenging and rewarding. And, fourth, there will be plenty of opportunity for everyone (who can afford a console) to find his calling, for the whole world of information, with all its fields and disciplines, will be open to him—with programs ready to guide him or to help him explore."
 # Continued 
 ## 1965 - MIT Lincoln Lab Experiment 
 * Lawrence G. Roberts and Thomas Marill connected a TX-2 at MIT Lincoln Lab to a Q-32 at System Development Corporation in Santa Monica, Califorina using a telephone line on lease from Western Union. 
@@ -10,9 +29,33 @@
 * Baran proposed a "Fish-Net" like network that utilized a store-and-forward message switching system in which each node or communication device of the network would treat a message, in it's entirety, like a "hot-potato" and continually attempt to pass it on to the next available node. Due to the "Fish-Net" structure of the network each node would have nurmerous routes to pass the message along by choosing alternate routes if it's prefered route is overwhelmed or disconnected.  
 ## 1966 - Donald Davies: Packet Switching
 * Davies proposed that if you had high data rates and short messages  the storage time delay that was present with Message Switching could be avoided. 
-* A message block for instance would be parsed up into "packets" and then distributed throughout the Distributed Network. 
+* A message block for instance would be parsed up into uniform "packets" and then distributed throughout the Distributed Network. this could ensure that a messaging to be traversed through the network would not be to large to cause any storage delays at nodes.
 * Each packet would find it's own unique way to it's destination based on node conditions and traffic. Once arriving at it's destination the packets would be reassembled into the message. 
 * At this time however packet swithcing within a distributed network was riddled with dozens of exicution delimeas. One of the major road-blocks being that a newtork for this to operate within did not exist and would not for another 22 years. 
-## 1966 - ARPA
+## 1967 - Arpanet Beginings 
+* In 1966 Robert W. Taylor replaced Sutherland as the Director of the Information Processing Techniques Office and was motivated to work on a problem that was perfectly illustrated by the terminals in his office. Taylor had 3 terminals in his office, one for interacting with a single time-sharing system. This led him to imagine interconnecting each of those time-sharing systems or computers.  
+* Taylor procured 1 million dollars of funding from the Director of ARPA, Charles Hertzfeld, to begin working on this networking endevor. 
+* Lawrence Roberts was recruited to manage the program, as his exeriement at MIT Lincoln Lab was very simliar to what they wanted to achieve. 
+* One of the first challenges was how they were going to build this packet-switching network and how would computers even comminicate across such a network. what sort of network topology would be best? 
+* At this time all of Baran and Davies work on Distributed Message Switched Systems were theoretical and had not been realized at this scale. These were uncharted water's for sure. 
+* One of the major issues with this type of system was how to get different computers with different arcitectures to be able to communicate. 
+* Welsey Clark came up with the idea of having a companion computer that would accompany the mainframe and perform all of the network functions. This in a sense would curcumvent the complicaitons of networking mainframes with different arcitectures togehter. The mainframes would not need to be able to communicate with other mainframes in network they would only need to be able to commincate with their network companion and then the network companions would communicate with eachother. These companion computers became know as IMPs or Interface Message Processors. 
+* IMPs would be connected together with telephone lines and modems resulting in a message-switching subnet. 
+* Generally how this network would work is that the mainframe would create a message and send this message to the IMP. The IMP would parse the message into uniform packets. The IMP would when transmitt these packets through the subnet of telephone lines, modems, and other IMPs using a hot potato routing algorithm. Each packet could take it's own unique path through the subnet to maximize efficency. Once the recieveing IMP counts all expected packets it can reassemble them and then forward the message to the mainframe/host. 
+# 1968 - Request for Quotation 
+* Roberts was in a dilema. To build this network they needed a team that could create the IMPs and figure out how they would fit into the network. 
+* The bid described that 4 computers were to be networked together using IMPs with a potential 35 if the 4 were successful. 
+  * UCLA, SRI, UCSB, and University of Utah. 
+* Most prospective contractors were not enthusiatic about bidding on the project. This would require a dedication of their resources and most did not deem it feasable. 
+* Bolt, Beranek and Newman ended up winning the bid over Raytheon due to their unique team compositiion. 
+* Frank Heart, head of Division 6 at BBN, headed the team who included Severo Ornstein, Will Crowther, Dave Walden, and Robert Kahn. Most all of these members were part of the MIT Lincoln Lab at one point and all had experience building out real-time computer systems. 
+* At the begining of Septmber 1968 BBN delviered the first IMP to UCLA. 
+* Each site met to coordinate on host-to-bost protocals within the subnet. 
+* All 4 original sites recieved their IMPs and the network worked. However there were still many questions to be answered.  
+# 1972 - International Confrence  on Computer Communications 
+* This was mainly a result of Robert's belief that a global demostration of Arpanet would help to convert other host sites to be apart of the Arpanet network. 
+* This confrence served to inspire some of the brightest minds in the world of computing to assume new roles in the evolving field of computer communications. 
+* Arpanet's Packet Switching Network served as a catalyst for a whirlwind of innovation and energy in the world of computer networks that continues to this day. 
+
 
 <span style="color:red">some *red* text</span>.
