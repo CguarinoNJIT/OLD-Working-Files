@@ -5,8 +5,22 @@
 * When you hover over a node it will open up a short description window. 
   * Animate timline intro and hover over.
 --- 
-## 1947 (Not sure)
-* The Cold War begins. Tensions between the USA and the Soviet Union reach a new high. The threat of Nuclear 
+# Origins
+
+## Preface 
+### As is common with many revolutionary inovations the initial desire for the ‘internet’ was to make more effect war. A decentralized communications network would serve as an indestructible medium in the case that lines of communication were to be targeted. 
+   * The fear was during the Cold War if telephone communications were taken out America would not have a means of coordinating retaliatory or defensive measures. 
+   * Circuit switching - telephones - require direct contention path or circuit.  
+      * If the phone circuit is broken, it’s useless. 
+* At MIT during the 1950s American Psychologist and Computer Scientist J.C.R Licklider proposed the seminal idea of networked devices. 
+* At this time computers were vilified by the entertainment industry as alien technology in the pursuit of human obliteration. 
+## 1957 - Space Race
+* The Sovient Union launched the first statilite into orbit around the Earth, Sputnik. 
+* In reaction to the Soviet Union’s space program’s success Eisenhower established a new agency in the Bureau of Defense called the Advanced Research Project Agency or ARPA for short. 
+   * ARPA was in charge of the USA space program prior to NASA. 
+      * Naturally emerging computer science would fall under ARPA’s research efforts especially in relation to the space program. 
+   * In July 1958 the space program got a dedicated agency, NASA, and Computer Science research fell into obscurity in the public’s eye. 
+* The Cold War begins. Tensions between the USA and the Soviet Union reach a new high. The threat of nuclear war was as high as it ever had been. 
 ## 1962 - J.C.R. Licklider: An Intergalactic Vision
 * J.C.R. Licklider theorized in his seminal paper about the symbiotic relation that would grow between humans and computers. Licklider outlined the need for a seamless interaction between humans and computers. Licklider is considered a pioneer of articial intelligence. 
 * Licklider went on to contribute to early research efforts into the world of networking. In fact he is credited with formulating the earliest ideas of a global computer network at Bolt,Beranek and Newman Inc.(BBN,Tech R&D). Discussed in numerous memos at BBN Licklider proposed the concept of an Intergalactic Computer Network that outlines essentially what our Internet has become today. 
@@ -17,7 +31,6 @@
   * Proposing the idea that a network of computers would mean amplified human intelligence. An extension and supplimentation of the mind. 
   * This paper theorizes about the types of communities that can grow out of a networked system of general purpose computers. Introductions, discusions, and parting all happening on-line. 
     * "First, life will be happier for the on-line individual because the people with whom one interacts most strongly will be selected more by commonality of interests and goals than by accidents of proximity. Second, communication will be more effective and productive, and therefore more enjoyable. Third, much communication and interaction will be with programs and programmed models, which will be (a) highly responsive, (b) supplementary to one’s own capabilities, rather than competitive, and (c) capable of representing progressively more complex ideas without necessarily displaying all the levels of their structure at the same time-and which will therefore be both challenging and rewarding. And, fourth, there will be plenty of opportunity for everyone (who can afford a console) to find his calling, for the whole world of information, with all its fields and disciplines, will be open to him—with programs ready to guide him or to help him explore."
-# Continued 
 ## 1965 - MIT Lincoln Lab Experiment 
 * Lawrence G. Roberts and Thomas Marill connected a TX-2 at MIT Lincoln Lab to a Q-32 at System Development Corporation in Santa Monica, Califorina using a telephone line on lease from Western Union. 
   * Head of APRA's Informaiton Processing Techniques Office(IPTO), Ivan Sutherland, decided it was time that research was put into the complications with interconnecting computers. 
@@ -42,20 +55,25 @@
 * Welsey Clark came up with the idea of having a companion computer that would accompany the mainframe and perform all of the network functions. This in a sense would curcumvent the complicaitons of networking mainframes with different arcitectures togehter. The mainframes would not need to be able to communicate with other mainframes in network they would only need to be able to commincate with their network companion and then the network companions would communicate with eachother. These companion computers became know as IMPs or Interface Message Processors. 
 * IMPs would be connected together with telephone lines and modems resulting in a message-switching subnet. 
 * Generally how this network would work is that the mainframe would create a message and send this message to the IMP. The IMP would parse the message into uniform packets. The IMP would when transmitt these packets through the subnet of telephone lines, modems, and other IMPs using a hot potato routing algorithm. Each packet could take it's own unique path through the subnet to maximize efficency. Once the recieveing IMP counts all expected packets it can reassemble them and then forward the message to the mainframe/host. 
-# 1968 - Request for Quotation 
+## 1968 - Request for Quotation 
 * Roberts was in a dilema. To build this network they needed a team that could create the IMPs and figure out how they would fit into the network. 
 * The bid described that 4 computers were to be networked together using IMPs with a potential 35 if the 4 were successful. 
   * UCLA, SRI, UCSB, and University of Utah. 
 * Most prospective contractors were not enthusiatic about bidding on the project. This would require a dedication of their resources and most did not deem it feasable. 
+## 1969 - Arpanet is Born
 * Bolt, Beranek and Newman ended up winning the bid over Raytheon due to their unique team compositiion. 
 * Frank Heart, head of Division 6 at BBN, headed the team who included Severo Ornstein, Will Crowther, Dave Walden, and Robert Kahn. Most all of these members were part of the MIT Lincoln Lab at one point and all had experience building out real-time computer systems. 
 * At the begining of Septmber 1968 BBN delviered the first IMP to UCLA. 
-* Each site met to coordinate on host-to-bost protocals within the subnet. 
-* All 4 original sites recieved their IMPs and the network worked. However there were still many questions to be answered.  
-# 1972 - International Confrence  on Computer Communications 
+* Each site had a representative that met to coordinate on host-to-host protocals within the subnet. This group eventually grew to hundred of professionals and became known as the NWG or the Networking Working Group in 1970.
+* By the end of the year all 4 original sites recieved their IMPs and the network was born. However there were still many questions to be answered.  
+## 1972 - International Confrence  on Computer Communications 
 * This was mainly a result of Robert's belief that a global demostration of Arpanet would help to convert other host sites to be apart of the Arpanet network. 
+* At this time Arpanet had about 18 particiants in their netowrk with about 25 different "sites" on it. 
 * This confrence served to inspire some of the brightest minds in the world of computing to assume new roles in the evolving field of computer communications. 
-* Arpanet's Packet Switching Network served as a catalyst for a whirlwind of innovation and energy in the world of computer networks that continues to this day. 
+* Arpanet's Packet Switching Network served as a catalyst for a whirlwind of innovation and research in the world of computer networks that continues to this day. 
 
+# Internet Today
+
+## 1992 - World Wide Web 
 
 <span style="color:red">some *red* text</span>.

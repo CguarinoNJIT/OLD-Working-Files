@@ -1,4 +1,4 @@
-﻿Website Outline: Birth of the Internet
+≠Website Outline: Birth of the Internet
 
 
 Homepage: 
@@ -82,11 +82,11 @@ Arpanet:
    * That year ARPA hosted an international conference on computers and communications 
    * Bob Metcafle was given the task of putting together a demo of what the Arpanet could do. 
    * This sparked massive amounts of interest and network growth around the world. 
-* LANS(Local Area Network)  - building network or WANS(Wide Area Networks) - site ro campus network, became common.  
+* LANS(Local Area Network)  - building network or WANS(Wide Area Networks) - site or campus network, became common.  
 * TCP IP Protocol - 1973 Vint Cerf and Bob Kahn
    * if followed by different computer networks it would allow them to pass information back and forth.  
    * Gateway - the element of a network that knows how to talk to the networks and encapsulate packets. 
-* Arpanet was not mainstream. It has applications in defence and business but the general consumer did not have access or interest until the advent of technologies like the semiconductor, the mouse, high speed modem.  
+* Arpanet was not mainstream. It has applications in defense nce and business but the general consumer did not have access or interest until the advent of technologies like the semiconductor, the mouse, high speed modem.  
 * In 1983 Paul Mockapetris created the Domain Name System or DNS 
    * Mockapetris recognized that the early internet had an issue with how it handled address identifiers. 
    * This is a decentralized naming system for computers and resources connected to the internet. 
