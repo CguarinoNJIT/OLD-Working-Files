@@ -76,4 +76,28 @@
 
 ## 1992 - World Wide Web 
 
+# Technology Explained
+## IP Address 
+* Any device connected to the internet needs to have a unique address. This address is formated as x.x.x.x where x will be a number from 0 to 255. This address is called an IP address or Internet Protocol Address. 
+* When you connect to an Internet Service Provider you are assigned a temporary IP address. 
+* Currently the most of the IP addresses used are IPv4 which is a 32-bit address system. 
+# Protocols
+* Protocols are sets of instructions and standards that computers follow to operate. 
+* For a device to operate as intended on the Internet it needs to follow a series of protocols, otherwise their would not be a common "language" for devices on the Internet to connect with. 
+* The protocol stack used to communicate on the Internet is called the TCP/IP. This stands for Transmission Control Protocol and Internet Protocol respectively. 
+* The Transmission Control Protocol handles incoming packets and directs them to a specific location on your computer. 
+* The Internet Protocol handles outgoing packets and directs them to a specific IP address.
+* The basic flow required for host-to-host communication over the internet is as follows: 
+  1. Local application protocol layer for creating a message and parsed into uniform packets. 
+  2. The TCP layer assigns each packet a port number so that the recieving computer can identify which program it will need to recieve the message. 
+  3. Now the packets pass through the IP layer which will give each packet a destination TCP header. 
+  4. Ready to enter the subnet the packets need to pass through the hardware layer that will translate their bits into electrical pulses that can traverse the Internet. 
+  5. As the packets navigate the network they travel from ISP router to the next. ISP or Internet Service Provider routers will examine the TCP headers of each packet and determine where to send it next, many times this will be another ISP router. 
+  6. At some point the packets will reach their destination IP address and they will be reassembled into the transmitted message. 
+# Network Infrastructure 
+
+
+
+
+## Internet Service Provider (ISP)
 <span style="color:red">some *red* text</span>.
