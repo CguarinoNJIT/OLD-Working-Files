@@ -5,7 +5,7 @@
 * When you hover over a node it will open up a short description window. 
   * Animate timline intro and hover over.
 --- 
-# Origins
+# Origins - Arpanet
 
 ## Preface 
 ### As is common with many revolutionary inovations the initial desire for the ‘internet’ was to make more effect war. A decentralized communications network would serve as an indestructible medium in the case that lines of communication were to be targeted. 
@@ -72,16 +72,10 @@
 * This confrence served to inspire some of the brightest minds in the world of computing to assume new roles in the evolving field of computer communications. 
 * Arpanet's Packet Switching Network served as a catalyst for a whirlwind of innovation and research in the world of computer networks that continues to this day. 
 
-# Internet Today
+# Internet Infrastructure 
 
-## 1992 - World Wide Web 
-
-# Technology Explained
-## IP Address 
-* Any device connected to the internet needs to have a unique address. This address is formated as x.x.x.x where x will be a number from 0 to 255. This address is called an IP address or Internet Protocol Address. 
-* When you connect to an Internet Service Provider you are assigned a temporary IP address. 
-* Currently the most of the IP addresses used are IPv4 which is a 32-bit address system. 
-# Protocols
+# Software
+## Protocols
 * Protocols are sets of instructions and standards that computers follow to operate. 
 * For a device to operate as intended on the Internet it needs to follow a series of protocols, otherwise their would not be a common "language" for devices on the Internet to connect with. 
 * The protocol stack used to communicate on the Internet is called the TCP/IP. This stands for Transmission Control Protocol and Internet Protocol respectively. 
@@ -93,11 +87,14 @@
   3. Now the packets pass through the IP layer which will give each packet a destination TCP header. 
   4. Ready to enter the subnet the packets need to pass through the hardware layer that will translate their bits into electrical pulses that can traverse the Internet. 
   5. As the packets navigate the network they travel from ISP router to the next. ISP or Internet Service Provider routers will examine the TCP headers of each packet and determine where to send it next, many times this will be another ISP router. 
-  6. At some point the packets will reach their destination IP address and they will be reassembled into the transmitted message. 
-# Network Infrastructure 
+  6. At some point the packets will reach their destination IP address and they will be reassembled into the transmitted message.
+## IP Address 
+* Any device connected to the internet needs to have a unique address. This address is formated as x.x.x.x where x will be a number from 0 to 255. This address is called an IP address or Internet Protocol Address. 
+* When you connect to an Internet Service Provider you are assigned a temporary IP address. 
+* Currently the most of the IP addresses used are IPv4 which is a 32-bit address system which yeilds 4,294,967,296 available addresses. The world is quickly running out IP addresses with this system. 
+* The Internet is in the process of switching over to a IPv6 system that would yeild 340,282,366,920,938,463,463,374,607,431,768,211,456, more grains of sand than there is on the planet.  
 
-
-
+# Hardware 
 
 ## Internet Service Provider (ISP)
 <span style="color:red">some *red* text</span>.
