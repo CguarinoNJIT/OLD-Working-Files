@@ -75,6 +75,7 @@
 # Internet Infrastructure 
 
 # Software
+* Simply put, the Internet is a massive series of interconnected channels for data to travel through. This network is reliant on both physical infrastructure and software controls to get this data to move through it smoothly. Lets talk about the software...
 ## Protocols
 * Protocols are sets of instructions and standards that computers follow to operate. 
 * For a device to operate as intended on the Internet it needs to follow a series of protocols, otherwise their would not be a common "language" for devices on the Internet to connect with. 
