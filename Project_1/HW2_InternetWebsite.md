@@ -93,8 +93,10 @@
 * Any device connected to the internet needs to have a unique address. This address is formated as x.x.x.x where x will be a number from 0 to 255. This address is called an IP address or Internet Protocol Address. 
 * When you connect to an Internet Service Provider you are assigned a temporary IP address. 
 * Currently the most of the IP addresses used are IPv4 which is a 32-bit address system which yeilds 4,294,967,296 available addresses. The world is quickly running out IP addresses with this system. 
-* The Internet is in the process of switching over to a IPv6 system that would yeild 340,282,366,920,938,463,463,374,607,431,768,211,456, more grains of sand than there is on the planet.  
-
+* The Internet is in the process of transitioning over to a IPv6 system that would yeild 340,282,366,920,938,463,463,374,607,431,768,211,456, more grains of sand than there is on the planet.  
+## Packets 
+* When data travels throught the Internet it is sparsed into a series of uniform packets of 1,000 to 1,500 bytes. As these packets traverse the network they each follow a path of least resistence. This is a important degin feature of the packets system. This way if part of the network were overwhelmed with traffic these packets could sitll reach their destination. 
+* Packets are able to reach their destination and assembled properly becasue of their TCP Header and Footer. The Header and the Foot tells the routing devices and recieveing computer what is in the packet, how the it fits back together and it's destination. 
 # Hardware 
 
 ## Internet Service Provider (ISP)
