@@ -37,7 +37,11 @@
 * Davies proposed that if you had high data rates and short messages  the storage time delay that was present with Message Switching could be avoided. 
 * A message block for instance would be parsed up into uniform "packets" and then distributed throughout the Distributed Network. this could ensure that a messaging to be traversed through the network would not be to large to cause any storage delays at nodes.
 * Each packet would find it's own unique way to it's destination based on node conditions and traffic. Once arriving at it's destination the packets would be reassembled into the message. 
-* At this time however packet swithcing within a distributed network was riddled with dozens of exicution delimeas. One of the major road-blocks being that a newtork for this to operate within did not exist and would not for another 22 years. 
+---
+![Packet Switching Gif](C:\Users\ChrisGuarino\Documents\IS601\Project_1\images\Packet_Switching.gif)
+
+---
+* At this time however packet switching within a distributed network was riddled with dozens of exicution delimeas. One of the major road-blocks being that a newtork for this to operate within did not exist and would not for another 22 years. 
 ## 1967 - Arpanet Beginings 
 * In 1966 Robert W. Taylor replaced Sutherland as the Director of the Information Processing Techniques Office and was motivated to work on a problem that was perfectly illustrated by the terminals in his office. Taylor had 3 terminals in his office, one for interacting with a single time-sharing system. This led him to imagine interconnecting each of those time-sharing systems or computers.  
 * Taylor procured 1 million dollars of funding from the Director of ARPA, Charles Hertzfeld, to begin working on this networking endevor. 
