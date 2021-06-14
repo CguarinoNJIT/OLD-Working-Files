@@ -1,5 +1,7 @@
 # Internet Infrastructure 
-### The Iternet is made up of a network made up of 3 main structures.Clients, servers and nodes. A client requests data from the network, the servers are where that data is stored and the nodes relay data between clients and servers. Transmission between these structures is established through copper wires, fiber optics, and wireless signals ...normally a combination of the 3. 
+> ***"Move fast with stable infastructure."*** - Mark Zuckerberg. 
+### The Iternet is made up of a network made up of 3 main structures. Clients, servers and nodes. A client requests data from the network, the servers are where that data is stored and the nodes relay data between clients and servers. Transmission between these structures is established through copper wires, fiber optics, and wireless signals ...normally a combination of the 3. 
+## Let's explore...
 ---
 ## Protocols
 * Protocols are sets of instructions and standards that computers follow to operate. 
@@ -14,6 +16,7 @@
   4. Ready to enter the subnet the packets need to pass through the hardware layer that will translate their bits into electrical pulses that can traverse the Internet. 
   5. As the packets navigate the network they travel from ISP router to the next. ISP or Internet Service Provider routers will examine the TCP headers of each packet and determine where to send it next, many times this will be another ISP router. 
   6. At some point the packets will reach their destination IP address and they will be reassembled into the transmitted message.
+![TCP/IP Gif](C:\Users\ChrisGuarino\Documents\IS601\Project_1\images\tcpip.gif)
 ## Packets 
 * When data travels throught the Internet it is sparsed into a series of uniform packets of 1,000 to 1,500 bytes. As these packets traverse the network they each follow a path of least resistence. This is an important degin feature of the packets system. This way if part of the network were overwhelmed with traffic or destroyed these packets could sitll reach their destination by following alternative paths. 
 * Packets are able to reach their destination and assembled properly becasue of their TCP Header and Footer. The Header and the Foot tells the routing devices and recieveing computer what is in the packet, how the it fits back together and it's destination. 

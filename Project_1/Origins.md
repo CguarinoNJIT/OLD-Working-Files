@@ -1,7 +1,7 @@
 # Origins - Arpanet
-
-## Preface 
+> ***"Study the past if you want to define the future.*** - Confucius
 ### As is common with many revolutionary inovations the initial desire for the ‘internet’ was to make more effect war. A decentralized communications network would serve as an indestructible medium in the case that lines of communication were to be targeted. 
+## War what is it good for...?
    * The fear was during the Cold War if telephone communications were taken out America would not have a means of coordinating retaliatory or defensive measures. 
    * Circuit switching - telephones - require direct contention path or circuit.  
       * If the phone circuit is broken, it’s useless. 
@@ -23,7 +23,7 @@
 * This futurist paper written by J.C.R. Licklider and Robert W. Taylor illustrates how the leap from commonplace telecommunications to a more sophisticated network of multiaccess computers would dramatically improve creative comminication and problem solving. 
   * Proposing the idea that a network of computers would mean amplified human intelligence. An extension and supplimentation of the mind. 
   * This paper theorizes about the types of communities that can grow out of a networked system of general purpose computers. Introductions, discusions, and parting all happening on-line. 
-    * "First, life will be happier for the on-line individual because the people with whom one interacts most strongly will be selected more by commonality of interests and goals than by accidents of proximity. Second, communication will be more effective and productive, and therefore more enjoyable. Third, much communication and interaction will be with programs and programmed models, which will be (a) highly responsive, (b) supplementary to one’s own capabilities, rather than competitive, and (c) capable of representing progressively more complex ideas without necessarily displaying all the levels of their structure at the same time-and which will therefore be both challenging and rewarding. And, fourth, there will be plenty of opportunity for everyone (who can afford a console) to find his calling, for the whole world of information, with all its fields and disciplines, will be open to him—with programs ready to guide him or to help him explore."
+    > "First, life will be happier for the on-line individual because the people with whom one interacts most strongly will be selected more by commonality of interests and goals than by accidents of proximity. Second, communication will be more effective and productive, and therefore more enjoyable. Third, much communication and interaction will be with programs and programmed models, which will be (a) highly responsive, (b) supplementary to one’s own capabilities, rather than competitive, and (c) capable of representing progressively more complex ideas without necessarily displaying all the levels of their structure at the same time-and which will therefore be both challenging and rewarding. And, fourth, there will be plenty of opportunity for everyone (who can afford a console) to find his calling, for the whole world of information, with all its fields and disciplines, will be open to him—with programs ready to guide him or to help him explore."
 ## 1965 - MIT Lincoln Lab Experiment 
 * Lawrence G. Roberts and Thomas Marill connected a TX-2 at MIT Lincoln Lab to a Q-32 at System Development Corporation in Santa Monica, Califorina using a telephone line on lease from Western Union. 
   * Head of APRA's Informaiton Processing Techniques Office(IPTO), Ivan Sutherland, decided it was time that research was put into the complications with interconnecting computers. 
@@ -64,3 +64,10 @@
 * At this time Arpanet had about 18 particiants in their netowrk with about 25 different "sites" on it. 
 * This confrence served to inspire some of the brightest minds in the world of computing to assume new roles in the evolving field of computer communications. 
 * Arpanet's Packet Switching Network served as a catalyst for a whirlwind of innovation and research in the world of computer networks that continues to this day. 
+## World Wide Web - Tim Berners-Lee 
+* Berners-Lee worked at CERN (European Council for Nuclear Research) in the 1980s. 
+* This organization was tasked with studying fundamental laws of physics and the nature of the universe. 
+* Berners-Lee was tasked with building a local network to allow researches to becasue to share and collaborate more easily. 
+* He acchieved this by building an interface using hmtl, http, and urls and named it the " World Wide Web". 
+* The first website ever made was made by Tim Berner-Lee in France in 1991. 
+* This was the true birth of what we think of as the Internet today. A graphical interface that allows the user to effortlessly naviagate the Internet. 
