@@ -17,14 +17,14 @@
   5. As the packets navigate the network they travel from ISP router to the next. ISP or Internet Service Provider routers will examine the TCP headers of each packet and determine where to send it next, many times this will be another ISP router. 
   6. At some point the packets will reach their destination IP address and they will be reassembled into the transmitted message.
 ---
-![TCP/IP Gif](images\tcpip.gif)
+![TCP/IP Gif](images/tcpip.gif)
 
 ---
 ## Packets 
 * When data travels throught the Internet it is sparsed into a series of uniform packets of 1,000 to 1,500 bytes. As these packets traverse the network they each follow a path of least resistence. This is an important degin feature of the packets system. This way if part of the network were overwhelmed with traffic or destroyed these packets could sitll reach their destination by following alternative paths. 
 * Packets are able to reach their destination and assembled properly becasue of their TCP Header and Footer. The Header and the Foot tells the routing devices and recieveing computer what is in the packet, how the it fits back together and it's destination. 
 ---
-![TCP Header](images\tcp_header.png)
+![TCP Header](images/tcp_header.png)
 
 ---
 * When data travels throught the Internet it is sparsed into a series of uniform packets of 1,000 to 1,500 bytes. As these packets traverse the network they each follow a path of least resistence. This is an important degin feature of the packets system. This way if part of the network were overwhelmed with traffic or destroyed these packets could sitll reach their destination by following alternative paths. 
