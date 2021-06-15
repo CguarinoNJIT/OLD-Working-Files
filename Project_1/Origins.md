@@ -38,7 +38,7 @@
 * A message block for instance would be parsed up into uniform "packets" and then distributed throughout the Distributed Network. this could ensure that a messaging to be traversed through the network would not be to large to cause any storage delays at nodes.
 * Each packet would find it's own unique way to it's destination based on node conditions and traffic. Once arriving at it's destination the packets would be reassembled into the message. 
 ---
-![Packet Switching Gif](\images\Packet_Switching.gif)
+![Packet Switching Gif](images\Packet_Switching.gif)
 
 ---
 * At this time however packet switching within a distributed network was riddled with dozens of exicution delimeas. One of the major road-blocks being that a newtork for this to operate within did not exist and would not for another 22 years. 
