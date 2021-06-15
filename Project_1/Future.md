@@ -17,9 +17,9 @@
 ---
 ## The Internet of Things 
 ---
-![Internet of Things](images/internetofthings.gif)
 * Already we have wide and diverse ecosystem of Networked devices. Everything from smart light bulbs to driverless cars need to transfer their packets on the Internet. As technologies are refined and advance we will continue to see more and more devices that require the Internet to operate. 
 * Nearlly all digital entertainment is already dependent the Internet. In the near future likely many other static objects in our lives will be networked. 
+![Internet of Things](images/internetofthings.gif)
 * Your clothing may have senors in it that can give you a live read out of your vitals, buildings will be able to monitor and track their maintence and reconstruction requirments based on data it can recieve from networked building materials, city's will becoming "smart" with all infastructure able to communicate to request service and give updates on ware. 
 * More and more of our world will have an Internet pressence and requirements. As our world becomes more integrated technologies that haven't even been dreamt of will emerge to cater to even more increasing demand for information transfer and storage.  
 
