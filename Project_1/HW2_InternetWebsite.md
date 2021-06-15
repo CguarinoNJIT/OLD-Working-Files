@@ -1,5 +1,5 @@
 # The Internet 
-## | [Origins](Origins) | [Infastructure](Infastructure.md) | [Future](Future.md) |
+## | [Origins](Origins.md) | [Infastructure](Infastructure.md) | [Future](Future.md) |
 
 ![Title Image](images/Internetglobe.jpg) - Image to be background. 
 > ***"We are all now connected by the Internet, like neurons in a giant brain."*** - Stephen Hawking
