@@ -4,7 +4,7 @@
 * In 2016 Internet traffic passed one zettabyte (1,000,000,000,000,000,000,000 bytes) in annual use. In 2021 that traffic is expected to be tripled.  
 * ISPs have been pushing to expand their infastructure to accomidate a growing Internet demands. 
 --- 
-![Use Growth](\images\usegrowth.png)
+![Use Growth](https://github.com/CguarinoNJIT/IS601/tree/working/Project_1/images/usegrowth.png)
 
 ---
 ## 5G Network 
@@ -12,12 +12,12 @@
 * This is significant not only becasue it will make data transfers over the Internet faster and more reliable now but it will free up bandwidth for what will come next. 
 * 5G operates at 28 GHz to 39 GHz which is about 10 times the frequency and speed of 4G. Higher frequncies means that the signal wave lengths themselves are shorter, so more information can be communicated in a shorter bandwidth. 
 ---
-![5G vs 4G](\images\5Gvs4G.jpg)
+![5G vs 4G](https://github.com/CguarinoNJIT/IS601/tree/working/Project_1/images/5Gvs4G.jpg)
 
 ---
 ## The Internet of Things 
 ---
-![Internet of Things](\images\internetofthings.gif)
+![Internet of Things](https://github.com/CguarinoNJIT/IS601/tree/working/Project_1/images/internetofthings.gif)
 * Already we have wide and diverse ecosystem of Networked devices. Everything from smart light bulbs to driverless cars need to transfer their packets on the Internet. As technologies are refined and advance we will continue to see more and more devices that require the Internet to operate. 
 * Nearlly all digital entertainment is already dependent the Internet. In the near future likely many other static objects in our lives will be networked. 
 * Your clothing may have senors in it that can give you a live read out of your vitals, buildings will be able to monitor and track their maintence and reconstruction requirments based on data it can recieve from networked building materials, city's will becoming "smart" with all infastructure able to communicate to request service and give updates on ware. 
