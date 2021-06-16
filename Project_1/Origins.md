@@ -16,6 +16,9 @@
    * In July 1958 the space program got a dedicated agency, NASA, and Computer Science research fell into obscurity in the public’s eye. 
 * The Cold War begins. Tensions between the USA and the Soviet Union reach a new high. The threat of nuclear war was as high as it ever had been. 
 ## 1962 - J.C.R. Licklider: An Intergalactic Vision
+--- 
+![Licklider](images/J._C._R._Licklider.jpg)
+> Have text wrap around. 
 * J.C.R. Licklider theorized in his seminal paper about the symbiotic relation that would grow between humans and computers. Licklider outlined the need for a seamless interaction between humans and computers. Licklider is considered a pioneer of artificial intelligence. 
 * Licklider went on to contribute to early research efforts into the world of networking. In fact he is credited with formulating the earliest ideas of a global computer network at Bolt, Beranek and Newman Inc.(BBN,Tech R&D). Discussed in numerous memos at BBN Licklider proposed the concept of an Intergalactic Computer Network that outlines essentially what our Internet has become today. 
 * His work and funding served as the inspiration and foothold for many other Networking pioneers. 
@@ -29,6 +32,9 @@
 * Lawrence G. Roberts and Thomas Marill connected a TX-2 at MIT Lincoln Lab to a Q-32 at System Development Corporation in Santa Monica, California using a telephone line on lease from Western Union. 
   * Head of APRA's Information Processing Techniques Office(IPTO), Ivan Sutherland, decided it was time that research was put into the complications with interconnecting computers. 
   * Sutherland gave the project to Larence G. Roberts who then contracted Thomas Marill, former student of Licklider and the founder of the time-sharing company Computer Corporation of America. 
+--- 
+![SAGE](images/sage.jpg)
+> Semi-Automatic Ground Environment (SAGE) was the result of early experimentation in computer networks. MIT Lincoln Lab developed a digital computer that could receive vast quantities of data from multiple radars and perform real-time processing to produce targeting information for intercepting aircraft and missiles. This is one of this system's display consoles. 
 * These early computer network utilized Circuit Switching technology. This was the standard switching technology that the phone companies used at this time. 
 * This was a slow and laborious process of having to have a dedicated connection between the two interfacing computers. Not at all suitable for computer communication that takes seconds to terminate. 
 ## 1962 - Paul Baran: On Distributed Communications Networks 
@@ -52,6 +58,10 @@
 * One of the major issues with this type of system was how to get different computers with different architectures to be able to communicate. 
 * Welsey Clark came up with the idea of having a companion computer that would accompany the mainframe and perform all of the network functions. This in a sense would circumvent the complications of networking mainframes with different architectures together. The mainframes would not need to be able to communicate with other mainframes in network they would only need to be able to communicate with their network companion and then the network companions would communicate with each other. These companion computers became know as IMPs or Interface Message Processors. 
 * IMPs would be connected together with telephone lines and modems resulting in a message-switching subnet. 
+--- 
+![IMP Diagram](images/impdiagram.jpg)
+> This diagram illustrates how the IMPs act as a gateway between separate computers. 
+---
 * Generally how this network would work is that the mainframe would create a message and send this message to the IMP. The IMP would parse the message into uniform packets. The IMP would when transmit these packets through the subnet of telephone lines, modems, and other IMPs using a hot potato routing algorithm. Each packet could take it's own unique path through the subnet to maximize efficiency. Once the receiving IMP counts all expected packets it can reassemble them and then forward the message to the mainframe/host. 
 ## 1968 - Request for Quotation 
 * Roberts was in a dilemma. To build this network they needed a team that could create the IMPs and figure out how they would fit into the network. 
@@ -67,9 +77,17 @@
 ## 1972 - International Conference  on Computer Communications 
 * This was mainly a result of Robert's belief that a global demonstration of Arpanet would help to convert other host sites to be apart of the Arpanet network. 
 * At this time Arpanet had about 18 participants in their network with about 25 different "sites" on it. 
+---
+![Arpanet Spread](images/arpanet-map-growth-miro.medium.com_.gif)
+> Spread of Arpanet
+---
 * This conference served to inspire some of the brightest minds in the world of computing to assume new roles in the evolving field of computer communications. 
 * Arpanet's Packet Switching Network served as a catalyst for a whirlwind of innovation and research in the world of computer networks that continues to this day. 
 ## World Wide Web - Tim Berners-Lee 
+---
+![Time Bereners-Lee](images/berners-lee.jpg)
+> Needs to be smaller
+---
 * Berners-Lee worked at CERN (European Council for Nuclear Research) in the 1980s. 
 * This organization was tasked with studying fundamental laws of physics and the nature of the universe. 
 * Berners-Lee was tasked with building a local network to allow researches to because to share and collaborate more easily. 
