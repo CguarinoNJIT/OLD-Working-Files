@@ -1,5 +1,5 @@
-# Internet Infrastructure in a Nutshell 
-## | [Home](HW2_InternetWebsite.md) |[Origins](Origins.md) | [Horizon](Future.md) |
+# Infrastructure in a Nutshell 
+## | [Home](HW2_InternetWebsite.md) |[Origins](Origins.md) | [Horizon](Future.md) | [About Me](about.md) | 
 > ***"Move fast with stable infrastructure."*** - Mark Zuckerberg. 
 ### The Internet is made up of a network made up of 3 main structures. Clients, servers and nodes. A client requests data from the network, the servers are where that data is stored and the nodes relay data between clients and servers. Transmission between these structures is established through copper wires, fiber optics, and wireless signals ...normally a combination of the 3. 
 ## Let's explore...

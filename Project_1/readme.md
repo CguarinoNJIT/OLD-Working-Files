@@ -2,12 +2,12 @@
 1. **Name:** Christopher Guarino 
 2. **Concept:** For my website I want to focus on the history and infrastructure of the Internet. As interesting and important the different browser based battles are I wanted to narrow my scope a bit. This site is geared toward adults. 
 # 2. Website General Information 
-1. **Description:** This website will be designed as an instructive history of the beginnings of the Internet as well as details about it's infrastructure. I will also have a page that explores new and potential uses that we put the internet to. 
+1. **Description:** This website will be designed as an instructive history of the beginnings of the Internet as well as details about it's infrastructure. I will also have a page that explores new and potential uses that we could put the internet to. 
 2. **Keywords:** Internet, Network, Arpanet, Protocols, Infrastructure 
 3. **Title:** The Internet: As Understood by Chris
-4. **Page Titles:** Home, Origins, Infrastructure, Horizon 
+4. **Page Titles:** Home, Origins, Infrastructure in a Nutshell, On the Horizon, About Me
 5. **Hero Text:** 
-6. **Website Main Menu:** [Home](HW2_InternetWebsite.md) | [Origins](Origins.md) | [Infrastructure](Infastructure.md) | [Horizon](Future.md) 
+6. **Website Main Menu:** [Home](HW2_InternetWebsite.md) | [Origins](Origins.md) | [Infrastructure](Infastructure.md) | [Horizon](Future.md) | [About Me](about.md)
 # 3. Pages
 ## Page 1 -  Home 
 1. **Menu Link:** [Home](HW2_InternetWebsite.md) 
@@ -38,11 +38,11 @@
 5. **Layout:** Powerpoint Style Layout
 6. **Page Content:** [Horizon](Future.md)  
 # 4. Footer Menu 
-## [Home](HW2_InternetWebsite.md) | [Origins](Origins.md) | [Infrastructure](Infastructure.md) | [Horizon](Future.md)  
+## [Home](HW2_InternetWebsite.md) | [Origins](Origins.md) | [Infrastructure](Infastructure.md) | [Horizon](Future.md)  | [About Me](about.md)
 # 5. About Page 
-1. **Menu Link:** [About](about.md) 
+1. **Menu Link:** [About Me](about.md) 
 2. **Page Title:** The Internet: About 
 3. **Description:** This page can give a brief description of myself and my background. 
 4. **Keywords:** About Chris Guarino, IS601
 5. **Layout:** Z Layout
-6. **Page Content:** [About](about.md) 
+6. **Page Content:** [About Me](about.md) 

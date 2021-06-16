@@ -1,5 +1,5 @@
 # On the Horizon 
-## | [Home](HW2_InternetWebsite.md) | [Origins](Origins.md) | [Infrastructure](Infastructure.md) |
+## | [Home](HW2_InternetWebsite.md) | [Origins](Origins.md) | [Infrastructure](Infastructure.md) | [About Me](about.md) |
 > ***“Our intuition about the future is linear. But the reality of information technology is exponential, and that makes a profound difference. If I take 30 steps linearly, I get to 30. If I take 30 steps exponentially, I get to a billion.”*** - Ray Kurzweil
 ## Growing Data Consumption 
 * In 2016 Internet traffic passed one zettabyte (1,000,000,000,000,000,000,000 bytes) in annual use. In 2021 that traffic is expected to be tripled.  
