@@ -5,7 +5,7 @@
 * In 2016 Internet traffic passed one zettabyte (1,000,000,000,000,000,000,000 bytes) in annual use. In 2021 that traffic is expected to be tripled.  
 * ISPs have been pushing to expand their infrastructure to accommodate a growing Internet demands. 
 --- 
-![Use Growth](images/trafficpermonth.png)
+![Use Growth](images/Trafficpermonth.png)
 
 ---
 ## 5G Network 
