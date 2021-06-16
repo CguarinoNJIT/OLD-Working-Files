@@ -42,7 +42,7 @@
 # 5. About Page 
 1. **Menu Link:** [About](about.md) 
 2. **Page Title:** The Internet: About 
-3. **Description:** No Idea
-4. **Keywords:** Internet
+3. **Description:** This page can give a brief description of myself and my background. 
+4. **Keywords:** About Chris Guarino, IS601
 5. **Layout:** Z Layout
 6. **Page Content:** [About](about.md) 
