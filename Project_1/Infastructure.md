@@ -18,8 +18,8 @@
   5. As the packets navigate the network they travel from ISP router to the next. ISP or Internet Service Provider routers will examine the TCP headers of each packet and determine where to send it next, many times this will be another ISP router. 
   6. At some point the packets will reach their destination IP address and they will be reassembled into the transmitted message.
 ---
-![TCP/IP Gif](images/tcpip.gif)
-
+![TCP/IP Gif](images/tcpip.png)
+> This TCP/IP diagram illustrates the path that data follows in order to traverse the TCP/IP layers . 
 ---
 ## Packets 
 * When data travels through the Internet it is parsed into a series of uniform packets of 1,000 to 1,500 bytes. As these packets traverse the network they each follow a path of least resistance. This is an important design feature of the packets system. This way if part of the network were overwhelmed with traffic or destroyed these packets could still reach their destination by following alternative paths. 
