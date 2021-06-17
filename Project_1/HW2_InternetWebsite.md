@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # The Internet: As Understood by Chris 
 ## | [Origins](Origins.md) | [Infrastructure](Infastructure.md) | [Horizon](Future.md) | [About Me](about.md) |
 > ***"We are all now connected by the Internet, like neurons in a giant brain."*** - Stephen Hawking
