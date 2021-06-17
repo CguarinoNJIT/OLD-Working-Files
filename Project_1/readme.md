@@ -38,7 +38,7 @@
 5. **Layout:** Powerpoint Style Layout
 6. **Page Content:** [Horizon](Future.md)  
 # 4. Footer Menu 
-## [Home](HW2_InternetWebsite.md) | [Origins](Origins.md) | [Infrastructure](Infastructure.md) | [Horizon](Future.md)  | [About Me](about.md) |
+## | [Home](HW2_InternetWebsite.md) | [Origins](Origins.md) | [Infrastructure](Infastructure.md) | [Horizon](Future.md)  | [About Me](about.md) |
 # 5. About Page 
 1. **Menu Link:** [About Me](about.md) 
 2. **Page Title:** The Internet: About 
