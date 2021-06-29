@@ -4,6 +4,18 @@ def addition(a,b):
 def subtraction(a,b):
     return a - b
 
+def multiplication(a,b):
+    return a * b
+
+def division(a,b):
+    return b / a
+
+def squareroot(a):
+    return a ** 0.5
+
+def square(a):
+    return a ** 2
+
 class Calculator:
     result = 0
 
@@ -17,3 +29,20 @@ class Calculator:
     def subtract(self,a,b):
         self.result = subtraction(a,b)
         return self.result
+
+    def multiply(self,a,b):
+        self.result = multiplication(a,b)
+        return self.result
+
+    def divide(self,a,b):
+        self.result = division(a,b)
+        return self.result
+
+    def square_root(self,a):
+        self.result = squareroot(a)
+        return self.result
+
+    def squared(self,a):
+        self.result = square(a)
+        return self.result
+
