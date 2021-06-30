@@ -12,7 +12,8 @@ class CsvReader:
             csv_data = csv.DictReader(text_data,delimiter = ',')
             for row in csv_data:
                 self.data.append(row)
-            pass
+                pprint(row)
+        pass
 
     def return_data_as_objects(self,class_name):
         objects = []
