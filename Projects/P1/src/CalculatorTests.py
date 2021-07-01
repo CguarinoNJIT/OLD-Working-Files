@@ -6,7 +6,7 @@ from pprint import pprint
 class MyTestCase(unittest.TestCase):
 
 # This setUp method will give scope of it's contents to the test methods that follow.
-    def setUp(self):
+    def setUp(self) -> None:
         self.calculator = Calculator()
 # This test_instantiate_calculator confirms that a Calculator Class exists.
     def test_instantiate_calculator(self):
