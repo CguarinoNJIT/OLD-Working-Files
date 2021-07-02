@@ -2,19 +2,31 @@ def addition(a,b):
     return a + b
 
 def subtraction(a,b):
-    return a - b
+    return b - a
 
 def multiplication(a,b):
     return a * b
 
 def division(a,b):
-    return b / a
+    result = b / a
+    if result.is_integer() == False:
+        return round(result,9)
+    else:
+        return int(result)
 
 def squareroot(a):
-    return a ** 0.5
+    result = a ** 0.5
+    if result.is_integer() == False:
+        return round(result,9)
+    else:
+        return int(result)
 
 def square(a):
-    return a ** 2
+    result = a ** 2
+    if result.is_integer() == False:
+        return round(result,9)
+    else:
+        return int(result)
 
 class Calculator:
     result = 0
