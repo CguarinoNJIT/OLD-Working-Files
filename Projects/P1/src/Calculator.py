@@ -9,22 +9,23 @@ def multiplication(a,b):
 
 def division(a,b):
     result = b / a
-    if result.is_integer() == False:
+    if not result.is_integer():
         return round(result,9)
     else:
         return int(result)
 
-def squareroot(a):
+def squareroot(a,round_to=8):
     result = a ** 0.5
-    if result.is_integer() == False:
-        return round(result,9)
+    if not result.is_integer():
+        return round(result,round_to)
     else:
+
         return int(result)
 
 def square(a):
-    result = a ** 2
-    if result.is_integer() == False:
-        return round(result,9)
+    result = a ** 2.0
+    if not result.is_integer():
+        return round(result,8)
     else:
         return int(result)
 

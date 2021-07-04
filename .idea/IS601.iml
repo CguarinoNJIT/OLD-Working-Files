@@ -5,7 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Projects/P1/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Remote Python 3.9.5 Docker (calculator_1:latest)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Remote Python 3.9.6 Docker (calculator_1:latest)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
