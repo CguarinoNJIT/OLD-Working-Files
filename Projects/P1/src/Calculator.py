@@ -1,3 +1,5 @@
+import decimal
+
 def addition(a,b):
     return a + b
 
@@ -14,13 +16,17 @@ def division(a,b):
     else:
         return int(result)
 
-def squareroot(a,round_to=8):
+def squareroot(a):
+    print(a)
     result = a ** 0.5
+    print(result)
     if not result.is_integer():
-        return round(result,round_to)
+        print(decimal.Decimal(str(a)).as_tuple().exponent)
+        result = round(result, decimal.Decimal(str(a)).as_tuple().exponent)
     else:
-
-        return int(result)
+        result = int(result)
+    print(result)
+    return result
 
 def square(a):
     result = a ** 2.0
