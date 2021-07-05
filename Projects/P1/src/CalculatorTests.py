@@ -13,7 +13,7 @@ class MyTestCase(unittest.TestCase):
 # This test_instantiate_calculator confirms that a Calculator Class exists.
     def test_instantiate_calculator(self) -> None:
         self.assertIsInstance(self.calculator, Calculator)
-
+#This test_results_property_calculator confirms that the Calculator Class instantiate with default result value of 0.
     def test_results_property_calculator(self) -> None:
         self.assertEqual(self.calculator.result, 0)
 
