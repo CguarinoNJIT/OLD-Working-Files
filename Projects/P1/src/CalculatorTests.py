@@ -2,6 +2,7 @@ import unittest
 from Calculator import Calculator
 from CsvReader import CsvReader
 import ast
+import decimal
 
 class MyTestCase(unittest.TestCase):
 
@@ -53,7 +54,8 @@ class MyTestCase(unittest.TestCase):
         CsvReader.data = []
         test_data = CsvReader('/src/Unit Test Square Root.csv').data
         for row in test_data:
-            self.assertEqual(self.calculator.square_root(ast.literal_eval(str(row['Value 1']))), float(row['Result']))
+            decimal_places = abs(decimal.Decimal((row['Result'])).as_tuple().exponent)
+            self.assertEqual(self.calculator.square_root(ast.literal_eval(str(row['Value 1'])), decimal_places), ast.literal_eval(str(row['Result'])))
             self.assertEqual(self.calculator.result, float(row['Result']))
 # Square Check
     def test_squared_method_calculator(self) -> None:
@@ -61,6 +63,7 @@ class MyTestCase(unittest.TestCase):
         CsvReader.data = []
         test_data = CsvReader('/src/Unit Test Square.csv').data
         for row in test_data:
+            decimal_places = abs(decimal.Decimal((row['Result'])).as_tuple().exponent)
             self.assertEqual(self.calculator.squared(int(row['Value 1'])), int(row['Result']))
             self.assertEqual(self.calculator.result, int(row['Result']))
 

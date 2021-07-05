@@ -16,22 +16,18 @@ def division(a,b):
     else:
         return int(result)
 
-def squareroot(a):
-    print(a)
+def squareroot(a, decimal_places=8):
     result = a ** 0.5
-    print(result)
     if not result.is_integer():
-        print(decimal.Decimal(str(a)).as_tuple().exponent)
-        result = round(result, decimal.Decimal(str(a)).as_tuple().exponent)
+        result = round(result, decimal_places)
     else:
         result = int(result)
-    print(result)
     return result
 
-def square(a):
+def square(a, decimal_places=8):
     result = a ** 2.0
     if not result.is_integer():
-        return round(result,8)
+        return round(result, decimal_places)
     else:
         return int(result)
 
@@ -57,11 +53,11 @@ class Calculator:
         self.result = division(a,b)
         return self.result
 
-    def square_root(self,a):
-        self.result = squareroot(a)
+    def square_root(self,a, decimal_places=8):
+        self.result = squareroot(a, decimal_places)
         return self.result
 
-    def squared(self,a):
-        self.result = square(a)
+    def squared(self,a, decimal_places=8):
+        self.result = square(a, decimal_places)
         return self.result
 
