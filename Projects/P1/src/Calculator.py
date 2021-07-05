@@ -36,10 +36,10 @@ class SquareRoot:
 
 class Square:
     @staticmethod
-    def square(a, decimal_places=8):
+    def square(a):
         result = a ** 2.0
         if not result.is_integer():
-            return round(result, decimal_places)
+            return round(result,9)
         else:
             return int(result)
 
@@ -69,7 +69,7 @@ class Calculator:
         self.result = SquareRoot.squareroot(a, decimal_places)
         return self.result
 
-    def squared(self,a, decimal_places=8):
-        self.result = Square.square(a, decimal_places)
+    def squared(self,a):
+        self.result = Square.square(a)
         return self.result
 
