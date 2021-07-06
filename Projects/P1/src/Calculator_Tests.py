@@ -1,6 +1,6 @@
 import unittest
 from Calculator import Calculator
-from CsvReader import CsvReader
+from CSV_Reader import CsvReader
 import ast
 import decimal
 
