@@ -18,7 +18,7 @@ class MyTestCase(unittest.TestCase):
     def test_results_property_calculator(self) -> None:
         self.assertEqual(self.calculator.result, 0)
 
-# Addition Checkx
+# Addition Check
     def test_add_method_calculator(self) -> None:
         print("\n" , "Addition: ")
         test_data = CsvReader('C:/Users/ChrisGuarino/Documents/IS601/Projects/P2/src/Tests/Data/Unit Test Addition.csv').data
@@ -67,7 +67,7 @@ class MyTestCase(unittest.TestCase):
     def test_squared_method_calculator(self) -> None:
         print("\n" , "Squared: ")
         CsvReader.data = []
-        test_data = CsvReader('C:/Users/ChrisGuarino/Documents/IS601/Projects/P2/src/Tests/Data/    Unit Test Square.csv').data
+        test_data = CsvReader('C:/Users/ChrisGuarino/Documents/IS601/Projects/P2/src/Tests/Data/Unit Test Square.csv').data
         for row in test_data:
             self.assertEqual(self.calculator.squared(int(row['Value 1'])), int(row['Result']))
             self.assertEqual(self.calculator.result, int(row['Result']))
