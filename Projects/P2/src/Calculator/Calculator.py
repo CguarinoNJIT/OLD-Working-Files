@@ -1,10 +1,10 @@
 #Arithmatic Functions
-from Addition import addition
-from Subtraction import subtraction
-from Multiplication import multiplication
-from Division import division
-from SquareRoot import squareroot
-from Square import square
+from Calculator.Addition import addition
+from Calculator.Subtraction import subtraction
+from Calculator.Multiplication import multiplication
+from Calculator.Division import division
+from Calculator.SquareRoot import squareroot
+from Calculator.Square import square
 
 class Calculator:
     result = 0
