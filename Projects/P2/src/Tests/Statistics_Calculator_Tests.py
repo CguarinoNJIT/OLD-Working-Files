@@ -24,5 +24,7 @@ class MyTestCase(unittest.TestCase):
         print("\n" , "Addition: ")
         test_data = CsvReader('Data/Unit Test Addition.csv').data
         for row in test_data:
-            self.assertEqual(self.calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
-            self.assertEqual(self.calculator.result, int(row['Result']))
+            self.assertEqual(self.stats_calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
+            self.assertEqual(self.stats_calculator.result, int(row['Result']))
+
+# Work on randomly generating datasets so that you can test the stats calc... 
