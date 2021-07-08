@@ -6,6 +6,8 @@ from Calculator.Division import division
 from Calculator.SquareRoot import squareroot
 from Calculator.Square import square
 
+__all__ = ['Calculator']
+
 class Calculator:
     result = 0
 

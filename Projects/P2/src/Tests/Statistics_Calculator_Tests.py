@@ -22,7 +22,7 @@ class MyTestCase(unittest.TestCase):
 # Addition Check
     def test_add_method_calculator(self) -> None:
         print("\n" , "Addition: ")
-        test_data = CsvReader('C:/Users/ChrisGuarino/Documents/IS601/Projects/P2/src/Tests/Data/Unit Test Addition.csv').data
+        test_data = CsvReader('Data/Unit Test Addition.csv').data
         for row in test_data:
             self.assertEqual(self.calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
             self.assertEqual(self.calculator.result, int(row['Result']))
