@@ -6,4 +6,13 @@ def random_list_generator():
         random_data_list.append(random.randrange(0,101))
     return random_data_list
 
-print(random_list_generator())
+def mean(sample):
+    sum = 0
+    for num in sample:
+        sum += num
+    result = sum/len(sample)
+    return result
+
+testlist = random_list_generator()
+testmean = mean(testlist)
+print(testmean)

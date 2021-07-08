@@ -3,6 +3,7 @@ from Calculator.Calculator import Calculator
 from Statistics_Calculator.Statistics_Calculator import StatisticsCalculator
 from Support.CSV_Reader import CsvReader
 from Support.Random_List_Generator import random_list_generator
+from Statistics_Calculator.Mean import mean
 import ast
 import decimal
 
@@ -32,7 +33,11 @@ class MyTestCase(unittest.TestCase):
     def test_mean_method_statistics_calculator(self) -> None:
         print("\n" , "Mean: ")
         test_data = random_list_generator()
-        for num in test_data:
+        check_num = sum(test_data)/len(test_data)
+        if mean(test_data) == check_num:
+            print(f"Pass: {check_num} = {mean(test_data)}")
+        else:
+            print(f"Fuck the mean of {mean(test_data)} is not {check_num}.")
 
 
 # Work on randomly generating datasets so that you can test the stats calc... 
