@@ -21,23 +21,38 @@ class MyTestCase(unittest.TestCase):
     def test_results_property_calculator(self) -> None:
         self.assertEqual(self.stats_calculator.result, 0)
 
+#Check for valid numbers.
+# - Error handling and throw a TypeError if wrong result type is being tried to process.
+# isdigit or isnum - String methods may not work.
+#use a while loop and break if it is false?
+
+#Error Handling
+
+# try:
+#     pass
+# except:
+#     pass
+# else:
+#     pass
+
 # Addition Check
-    def test_add_method_calculator(self) -> None:
-        print("\n" , "Addition: ")
-        test_data = CsvReader('Data/Unit Test Addition.csv').data
-        for row in test_data:
-            self.assertEqual(self.stats_calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
-            self.assertEqual(self.stats_calculator.result, int(row['Result']))
+#     def test_add_method_calculator(self) -> None:
+#         print("\n" , "Addition: ")
+#         test_data = CsvReader('Data/Unit Test Addition.csv').data
+#         for row in test_data:
+#             self.assertEqual(self.stats_calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
+#             self.assertEqual(self.stats_calculator.result, int(row['Result']))
 
 # Mean Check
     def test_mean_method_statistics_calculator(self) -> None:
         print("\n" , "Mean: ")
-        test_data = random_list_generator()
-        check_num = sum(test_data)/len(test_data)
+        test_data = random_list_generator(11)
+        check_num = round(sum(test_data)/len(test_data),4)
         if mean(test_data) == check_num:
             print(f"Pass: {check_num} = {mean(test_data)}")
         else:
-            print(f"Fuck the mean of {mean(test_data)} is not {check_num}.")
+            print(f"Fuck the real mean is {check_num} not {mean(test_data)}.")
+
 
 
 # Work on randomly generating datasets so that you can test the stats calc... 
