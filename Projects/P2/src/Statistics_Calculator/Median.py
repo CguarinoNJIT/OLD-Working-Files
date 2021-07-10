@@ -14,9 +14,3 @@ def median(sample):
         return evencenternum
     else:
         return sample[centernum]
-
-
-testlist = random_list_generator(10)
-print(f'List: {testlist}')
-
-print(median(testlist))
