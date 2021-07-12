@@ -8,8 +8,7 @@ def median(sample):
     print(f'List Length: {length}')
     centernum = int(division(2,length))
     if length % 2 == 0:
-        evencenternum = int(division(2,addition(sample[centernum] , sample[subtraction(1,centernum)])))
-        print(sample[centernum],sample[centernum-1])
+        evencenternum = (division(2,addition(sample[centernum] , sample[subtraction(1,centernum)])))
         return evencenternum
     else:
         return sample[centernum]

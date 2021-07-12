@@ -1,9 +1,11 @@
 import unittest
+import numpy
 from Calculator.Calculator import Calculator
 from Statistics_Calculator.Statistics_Calculator import StatisticsCalculator
 from Support.CSV_Reader import CsvReader
 from Support.Random_List_Generator import random_list_generator
 from Statistics_Calculator.Mean import mean
+from Statistics_Calculator.Median import median
 import ast
 import decimal
 
@@ -12,6 +14,7 @@ class MyTestCase(unittest.TestCase):
 # This setUp method will give scope of it's contents to the test methods that follow.
     def setUp(self) -> None:
         self.stats_calculator = StatisticsCalculator()
+        self.test_data = random_list_generator(10,0,1)
 
 # This test_instantiate_calculator confirms that a Calculator Class exists.
     def test_instantiate_calculator(self) -> None:
@@ -26,6 +29,10 @@ class MyTestCase(unittest.TestCase):
 # isdigit or isnum - String methods may not work.
 #use a while loop and break if it is false?
 
+#Check for empty list.
+
+#Check for Zero Divide
+
 #Error Handling
 
 # try:
@@ -35,23 +42,32 @@ class MyTestCase(unittest.TestCase):
 # else:
 #     pass
 
-# Addition Check
-#     def test_add_method_calculator(self) -> None:
-#         print("\n" , "Addition: ")
-#         test_data = CsvReader('Data/Unit Test Addition.csv').data
-#         for row in test_data:
-#             self.assertEqual(self.stats_calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
-#             self.assertEqual(self.stats_calculator.result, int(row['Result']))
-
 # Mean Check
     def test_mean_method_statistics_calculator(self) -> None:
         print("\n" , "Mean: ")
-        test_data = random_list_generator(11)
-        check_num = round(sum(test_data)/len(test_data),4)
-        if mean(test_data) == check_num:
-            print(f"Pass: {check_num} = {mean(test_data)}")
+        print(self.test_data)
+        check_num = numpy.mean(self.test_data)
+        test_num = mean(self.test_data)
+        if test_num == check_num:
+            print(f"Pass: {check_num} = {test_num}")
         else:
-            print(f"Fuck the real mean is {check_num} not {mean(test_data)}.")
+            print(f"Hey the expected median of this list is {check_num} not {test_num} stupid...Fix it!")
+
+#Median Check
+    def test_median_method_statistics_calculator(self) ->None:
+        print("\n","Median:")
+        print(self.test_data)
+        check_num = numpy.median(self.test_data)
+        test_num = median(self.test_data)
+        if test_num == check_num:
+            print(f"Pass: {check_num} = {test_num}")
+        else:
+            print(f"Hey the expected median of this list is {check_num} not {test_num} stupid...Fix it!")
+
+#Mode
+
+
+
 
 
 
