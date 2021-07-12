@@ -10,11 +10,6 @@ from Statistics_Calculator.Mode import mode
 from Statistics_Calculator.Variance import variance
 from Statistics_Calculator.StandardDeviation import standarddeviation
 
-from Calculator.Calculator import Calculator
-from Support.CSV_Reader import CsvReader
-import ast
-import decimal
-
 test = [17, 72, 97, 8, 32, 15, 63, 97, 57, 60,'A']
 
 class MyTestCase(unittest.TestCase):
@@ -40,63 +35,52 @@ class MyTestCase(unittest.TestCase):
     def test_valid_number(self) -> None:
         self.assertTrue(list2string(self.test_data).isdigit())
 
-# - Error handling and throw a TypeError if wrong result type is being tried to process.
-# isdigit or isnum - String methods may not work.
-
 #Check for Zero Divide
+
 
 # Mean Check
     def test_mean_method_statistics_calculator(self) -> None:
         print("\n" , "Mean: ")
-        print(self.test_data)
         check_num = numpy.mean(self.test_data)
         test_num = mean(self.test_data)
-        if test_num == check_num:
-            print(f"Pass: {check_num} = {test_num}")
-        else:
-            print(f"Hey the expected median of this list is {check_num} not {test_num} stupid...Fix it!")
+        self.assertEqual(test_num, check_num)
+        print(self.test_data)
+        print(f"Pass: {check_num} = {test_num}")
 
 #Median Check
     def test_median_method_statistics_calculator(self) ->None:
         print("\n","Median:")
-        print(self.test_data)
         check_num = numpy.median(self.test_data)
         test_num = median(self.test_data)
-        if test_num == check_num:
-            print(f"Pass: {check_num} = {test_num}")
-        else:
-            print(f"Hey the expected median of this list is {check_num} not {test_num} stupid...Fix it!")
+        self.assertEqual(test_num, check_num)
+        print(self.test_data)
+        print(f"Pass: {check_num} = {test_num}")
 
 #Mode
     def test_mode_method_statistics_calculator(self) ->None:
         print("\n","Mode:")
-        print(self.test_data)
         check_num = statistics.multimode(self.test_data)
         test_num = mode(self.test_data)
-        if test_num == check_num:
-            print(f"Pass: {check_num} = {test_num}")
-        else:
-            print(f"Hey the expected mode of this list is {check_num} not {test_num} stupid...Fix it!")
+        check_num.sort()
+        self.assertEqual(test_num,check_num)
+        print(self.test_data)
+        print(f'Pass: {check_num} = {test_num}')
 
 #Variance
     def test_variance_method_statistics_calculator(self) ->None:
         print("\n","Variance:")
-        print(self.test_data)
         check_num = round(statistics.variance(self.test_data),9)
         test_num = variance(self.test_data)
-        if test_num == check_num:
-            print(f"Pass: {check_num} = {test_num}")
-        else:
-            print(f"Hey the expected variance of this list is {check_num} not {test_num} stupid...Fix it!")
+        self.assertEqual(test_num,check_num)
+        print(self.test_data)
+        print(f"Pass: {check_num} = {test_num}")
 
 #Standard Deviation
     def test_standarddeviation_method_statistics_calculator(self) ->None:
         print("\n","Standard Deviation:")
-        print(self.test_data)
         check_num = round(numpy.std(self.test_data),9)
         test_num = standarddeviation(self.test_data)
-        if test_num == check_num:
-            print(f"Pass: {check_num} = {test_num}")
-        else:
-            print(f"Hey the expected standard deviation of this list is {check_num} not {test_num} stupid...Fix it!")
-# Work on randomly generating datasets so that you can test the stats calc... 
+        self.assertEqual(test_num, check_num)
+        print(self.test_data)
+        print(f"Pass: {check_num} = {test_num}")
+
