@@ -3,6 +3,7 @@ import numpy
 import statistics
 from Statistics_Calculator.Statistics_Calculator import StatisticsCalculator
 from Support.Random_List_Generator import random_list_generator
+from Support.ListToString import list2string
 from Statistics_Calculator.Mean import mean
 from Statistics_Calculator.Median import median
 from Statistics_Calculator.Mode import mode
@@ -14,14 +15,14 @@ from Support.CSV_Reader import CsvReader
 import ast
 import decimal
 
-test_list = [1,2,2,3,4,4,5]
+test = [17, 72, 97, 8, 32, 15, 63, 97, 57, 60,'A']
 
 class MyTestCase(unittest.TestCase):
 
 # This setUp method will give scope of it's contents to the test methods that follow.
     def setUp(self) -> None:
         self.stats_calculator = StatisticsCalculator()
-        self.test_data = random_list_generator(10,0,1)
+        self.test_data = random_list_generator(10)
 
 # This test_instantiate_calculator confirms that a Calculator Class exists.
     def test_instantiate_calculator(self) -> None:
@@ -31,23 +32,18 @@ class MyTestCase(unittest.TestCase):
     def test_results_property_calculator(self) -> None:
         self.assertEqual(self.stats_calculator.result, 0)
 
+#Check for an Empty List
+    def test_empty_test_data(self) -> None:
+        self.assertNotEqual(len(self.test_data),0)
+
 #Check for valid numbers.
+    def test_valid_number(self) -> None:
+        self.assertTrue(list2string(self.test_data).isdigit())
+
 # - Error handling and throw a TypeError if wrong result type is being tried to process.
 # isdigit or isnum - String methods may not work.
-#use a while loop and break if it is false?
-
-#Check for empty list.
 
 #Check for Zero Divide
-
-#Error Handling
-
-# try:
-#     pass
-# except:
-#     pass
-# else:
-#     pass
 
 # Mean Check
     def test_mean_method_statistics_calculator(self) -> None:
