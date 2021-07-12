@@ -1,13 +1,17 @@
 import unittest
 import numpy
+import statistics
 from Calculator.Calculator import Calculator
 from Statistics_Calculator.Statistics_Calculator import StatisticsCalculator
 from Support.CSV_Reader import CsvReader
 from Support.Random_List_Generator import random_list_generator
 from Statistics_Calculator.Mean import mean
 from Statistics_Calculator.Median import median
+from Statistics_Calculator.Mode import mode
 import ast
 import decimal
+
+test_list = [1,2,2,3,4,4,5]
 
 class MyTestCase(unittest.TestCase):
 
@@ -65,7 +69,15 @@ class MyTestCase(unittest.TestCase):
             print(f"Hey the expected median of this list is {check_num} not {test_num} stupid...Fix it!")
 
 #Mode
-
+    def test_mode_method_statistics_calculator(self) ->None:
+        print("\n","Mode:")
+        print(self.test_data)
+        check_num = statistics.multimode(self.test_data)
+        test_num = mode(self.test_data)
+        if test_num == check_num:
+            print(f"Pass: {check_num} = {test_num}")
+        else:
+            print(f"Hey the expected mode of this list is {check_num} not {test_num} stupid...Fix it!")
 
 
 
