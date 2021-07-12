@@ -1,14 +1,16 @@
 import unittest
 import numpy
 import statistics
-from Calculator.Calculator import Calculator
 from Statistics_Calculator.Statistics_Calculator import StatisticsCalculator
-from Support.CSV_Reader import CsvReader
 from Support.Random_List_Generator import random_list_generator
 from Statistics_Calculator.Mean import mean
 from Statistics_Calculator.Median import median
 from Statistics_Calculator.Mode import mode
 from Statistics_Calculator.Variance import variance
+from Statistics_Calculator.StandardDeviation import standarddeviation
+
+from Calculator.Calculator import Calculator
+from Support.CSV_Reader import CsvReader
 import ast
 import decimal
 
@@ -91,4 +93,14 @@ class MyTestCase(unittest.TestCase):
         else:
             print(f"Hey the expected variance of this list is {check_num} not {test_num} stupid...Fix it!")
 
+#Standard Deviation
+    def test_standarddeviation_method_statistics_calculator(self) ->None:
+        print("\n","Standard Deviation:")
+        print(self.test_data)
+        check_num = round(numpy.std(self.test_data),9)
+        test_num = standarddeviation(self.test_data)
+        if test_num == check_num:
+            print(f"Pass: {check_num} = {test_num}")
+        else:
+            print(f"Hey the expected standard deviation of this list is {check_num} not {test_num} stupid...Fix it!")
 # Work on randomly generating datasets so that you can test the stats calc... 
