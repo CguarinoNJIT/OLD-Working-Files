@@ -8,6 +8,7 @@ from Support.Random_List_Generator import random_list_generator
 from Statistics_Calculator.Mean import mean
 from Statistics_Calculator.Median import median
 from Statistics_Calculator.Mode import mode
+from Statistics_Calculator.Variance import variance
 import ast
 import decimal
 
@@ -79,8 +80,15 @@ class MyTestCase(unittest.TestCase):
         else:
             print(f"Hey the expected mode of this list is {check_num} not {test_num} stupid...Fix it!")
 
-
-
-
+#Variance
+    def test_variance_method_statistics_calculator(self) ->None:
+        print("\n","Variance:")
+        print(self.test_data)
+        check_num = round(statistics.variance(self.test_data),9)
+        test_num = variance(self.test_data)
+        if test_num == check_num:
+            print(f"Pass: {check_num} = {test_num}")
+        else:
+            print(f"Hey the expected variance of this list is {check_num} not {test_num} stupid...Fix it!")
 
 # Work on randomly generating datasets so that you can test the stats calc... 
