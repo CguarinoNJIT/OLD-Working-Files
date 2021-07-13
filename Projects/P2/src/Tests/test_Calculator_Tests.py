@@ -23,7 +23,7 @@ class MyTestCase(unittest.TestCase):
         print("\n" , "Addition: ")
         test_data = CsvReader('Data/Unit Test Addition.csv').data
         for row in test_data:
-            self.assertEqual(self.calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
+            self.calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result'])
             self.assertEqual(self.calculator.result, int(row['Result']))
 
 # Subtraction Check
@@ -32,7 +32,7 @@ class MyTestCase(unittest.TestCase):
         CsvReader.data = []
         test_data = CsvReader('Data/Unit Test Subtraction.csv').data
         for row in test_data:
-            self.assertEqual(self.calculator.subtract(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
+            self.calculator.subtract(int(row['Value 1']),int(row['Value 2'])), int(row['Result'])
             self.assertEqual(self.calculator.result, int(row['Result']))
 
 # Multiplication Check
@@ -41,7 +41,7 @@ class MyTestCase(unittest.TestCase):
         CsvReader.data = []
         test_data = CsvReader('Data/Unit Test Multiplication.csv').data
         for row in test_data:
-            self.assertEqual(self.calculator.multiply(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
+            self.calculator.multiply(int(row['Value 1']),int(row['Value 2'])), int(row['Result'])
             self.assertEqual(self.calculator.result, int(row['Result']))
 
 # Division Check
@@ -50,7 +50,7 @@ class MyTestCase(unittest.TestCase):
         CsvReader.data = []
         test_data = CsvReader('Data/Unit Test Division.csv').data
         for row in test_data:
-            self.assertEqual(self.calculator.divide(int(row['Value 1']),int(row['Value 2'])), float(row['Result']))
+            self.calculator.divide(int(row['Value 1']),int(row['Value 2'])), float(row['Result'])
             self.assertEqual(self.calculator.result, float(row['Result']))
 
 # Square Root Check
@@ -60,7 +60,7 @@ class MyTestCase(unittest.TestCase):
         test_data = CsvReader('Data/Unit Test Square Root.csv').data
         for row in test_data:
             decimal_places = abs(decimal.Decimal((row['Result'])).as_tuple().exponent)
-            self.assertEqual(self.calculator.square_root(ast.literal_eval(str(row['Value 1'])), decimal_places), ast.literal_eval(str(row['Result'])))
+            self.calculator.square_root(ast.literal_eval(str(row['Value 1'])), decimal_places), ast.literal_eval(str(row['Result']))
             self.assertEqual(self.calculator.result, float(row['Result']))
 
 # Square Check
@@ -69,7 +69,7 @@ class MyTestCase(unittest.TestCase):
         CsvReader.data = []
         test_data = CsvReader('Data/Unit Test Square.csv').data
         for row in test_data:
-            self.assertEqual(self.calculator.squared(int(row['Value 1'])), int(row['Result']))
+            self.calculator.squared(int(row['Value 1'])), int(row['Result'])
             self.assertEqual(self.calculator.result, int(row['Result']))
 
 if __name__ == '__main__':
