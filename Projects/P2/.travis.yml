@@ -14,8 +14,8 @@ python:
 
 install:
   -pip install -r requirements.txt
-#Commands
 
+#Commands
 script:
   -python -m unittest discover -s Tests
 
