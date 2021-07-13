@@ -21,55 +21,55 @@ class MyTestCase(unittest.TestCase):
 # Addition Check
     def test_add_method_calculator(self) -> None:
         print("\n" , "Addition: ")
-        test_data = CsvReader('Data/Unit Test Addition.csv').data
+        test_data = CsvReader('Tests/Data/Unit Test Addition.csv').data
         for row in test_data:
-            self.calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result'])
+            self.assertEqual(self.calculator.add(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
             self.assertEqual(self.calculator.result, int(row['Result']))
 
 # Subtraction Check
     def test_subtract_method_calculator(self) -> None:
         print("\n" , "Subtraction: ")
         CsvReader.data = []
-        test_data = CsvReader('Data/Unit Test Subtraction.csv').data
+        test_data = CsvReader('Tests/Data/Unit Test Subtraction.csv').data
         for row in test_data:
-            self.calculator.subtract(int(row['Value 1']),int(row['Value 2'])), int(row['Result'])
+            self.assertEqual(self.calculator.subtract(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
             self.assertEqual(self.calculator.result, int(row['Result']))
 
 # Multiplication Check
     def test_multiply_method_calculator(self) -> None:
         print("\n" , "Multiplication: ")
         CsvReader.data = []
-        test_data = CsvReader('Data/Unit Test Multiplication.csv').data
+        test_data = CsvReader('Tests/Data/Unit Test Multiplication.csv').data
         for row in test_data:
-            self.calculator.multiply(int(row['Value 1']),int(row['Value 2'])), int(row['Result'])
+            self.assertEqual(self.calculator.multiply(int(row['Value 1']),int(row['Value 2'])), int(row['Result']))
             self.assertEqual(self.calculator.result, int(row['Result']))
 
 # Division Check
     def test_division_method_calculator(self) -> None:
         print("\n" , "Division: ")
         CsvReader.data = []
-        test_data = CsvReader('Data/Unit Test Division.csv').data
+        test_data = CsvReader('Tests/Data/Unit Test Division.csv').data
         for row in test_data:
-            self.calculator.divide(int(row['Value 1']),int(row['Value 2'])), float(row['Result'])
+            self.assertEqual(self.calculator.divide(int(row['Value 1']),int(row['Value 2'])), float(row['Result']))
             self.assertEqual(self.calculator.result, float(row['Result']))
 
 # Square Root Check
     def test_squareroot_method_calculator(self) -> None:
         print("\n" , "Square Root: ")
         CsvReader.data = []
-        test_data = CsvReader('Data/Unit Test Square Root.csv').data
+        test_data = CsvReader('Tests/Data/Unit Test Square Root.csv').data
         for row in test_data:
             decimal_places = abs(decimal.Decimal((row['Result'])).as_tuple().exponent)
-            self.calculator.square_root(ast.literal_eval(str(row['Value 1'])), decimal_places), ast.literal_eval(str(row['Result']))
+            self.assertEqual(self.calculator.square_root(ast.literal_eval(str(row['Value 1'])), decimal_places), ast.literal_eval(str(row['Result'])))
             self.assertEqual(self.calculator.result, float(row['Result']))
 
 # Square Check
     def test_squared_method_calculator(self) -> None:
         print("\n" , "Squared: ")
         CsvReader.data = []
-        test_data = CsvReader('Data/Unit Test Square.csv').data
+        test_data = CsvReader('Tests/Data/Unit Test Square.csv').data
         for row in test_data:
-            self.calculator.squared(int(row['Value 1'])), int(row['Result'])
+            self.assertEqual(self.calculator.squared(int(row['Value 1'])), int(row['Result']))
             self.assertEqual(self.calculator.result, int(row['Result']))
 
 if __name__ == '__main__':

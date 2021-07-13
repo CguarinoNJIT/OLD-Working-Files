@@ -1,7 +1,9 @@
-FROM python:3
+FROM python:3.8
 
 ADD . .
 
 RUN pip install --upgrade pip
 
-CMD ["python", "-m", "unittest", "discover", "-s", "Tests"]
+CMD ["python", "-m", "unittest", "discover", "-s", "./src/Tests"]
+
+
