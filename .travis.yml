@@ -6,11 +6,12 @@ python:
   - "3.9"
 
 install:
-  -pip install -r requirements.txt
+
+  - pip install -r requirements.txt
 
 #Commands
 script:
-  -python -m unittest discover -s Projects/P2/src/Tests
+  - python -m unittest discover -s Projects/P2/src/Tests
 
 branches:
   - main
