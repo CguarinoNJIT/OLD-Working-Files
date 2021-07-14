@@ -2,18 +2,20 @@ import unittest
 from Support.CSV_Reader import CsvReader,ClassFactory
 from pprint import pprint
 
+
 class MyTestCase(unittest.TestCase):
 
     def setup(self) -> None:
-        self.csv_reader = CsvReader('employee_birthday.txt')
+        self.csv_reader = CsvReader('Tests/Data/employee_birthday.txt')
 
     def test_return_data_as_objects(self):
-        self.csv_reader = CsvReader('employee_birthday.txt')
         people = self.csv_reader.return_data_as_objects('person')
         self.assertIsInstance(people,list)
         test_class = ClassFactory('person',self.csv_reader.data[0])
         for person in people:
             self.assertEqual(person.__name__,test_class.__name__)
+            pprint(vars(people))
+
 
 if __name__ == '__main__':
     unittest.main()
